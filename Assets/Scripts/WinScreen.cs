@@ -6,6 +6,7 @@ using System.Diagnostics;
 using ITSoft;
 using UnityEngine;
 using UnityEngine.Playables;
+using Debug = UnityEngine.Debug;
 
 public class WinScreen : MonoBehaviour
 {
@@ -895,6 +896,9 @@ public class WinScreen : MonoBehaviour
 		particles.DestroyCreatedObjects();
 		animationEnum = DoPlainAnimation();
 		animationEnum.MoveNext();
+		var levelNumber = Match3StagesDB.instance.passedStages;
+		Debug.LogError($"level_complete_{levelNumber}");
+		AnalyticsManager.Log($"level_complete_{levelNumber}");
 		// AdsManager.ShowInterstitial();
 	}
 

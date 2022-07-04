@@ -33,169 +33,9 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 27
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
-  - name: Balcony
-    sceneName: Room0090_Veranda_First
-    displayName: Balcony
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 0
-        powerupType: 0
-        boosterType: 0
-        amount: 1000
-        hours: 0
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 27
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
-  - name: Lanai
-    sceneName: Room0090_Veranda_First
-    displayName: Lanai
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 0
-        powerupType: 0
-        boosterType: 0
-        amount: 1000
-        hours: 0
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 27
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
-  - name: Patio
-    sceneName: Room0090_Veranda_First
-    displayName: Patio
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 0
-        powerupType: 0
-        boosterType: 0
-        amount: 1000
-        hours: 0
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 27
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
-  - name: Portico
-    sceneName: Room0090_Veranda_First
-    displayName: Portico
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 0
-        powerupType: 0
-        boosterType: 0
-        amount: 1000
-        hours: 0
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 27
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
   - name: Bedroom
     sceneName: Room3_Second
     displayName: Bedroom
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 44
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
-  - name: Master Bedroom
-    sceneName: Room3_Second
-    displayName: Master Bedroom
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 44
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
-  - name: Hotel Bedroom
-    sceneName: Room3_Second
-    displayName: Hotel Bedroom
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 44
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
-  - name: Modern Bedroom
-    sceneName: Room3_Second
-    displayName: Modern Bedroom
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 44
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
-  - name: Guest Room
-    sceneName: Room3_Second
-    displayName: Guest Room
     description: 
     getFromAssetBundleOnEditor: 0
     assetBundleURLOSX: 
@@ -233,169 +73,9 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 77
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
-  - name: Pink Room
-    sceneName: Room050_GirlsBedroom
-    displayName: Pink Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 77
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
-  - name: Teenager Room
-    sceneName: Room050_GirlsBedroom
-    displayName: Teenager Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 77
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
-  - name: Daughter Room
-    sceneName: Room050_GirlsBedroom
-    displayName: Daughter Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 77
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
-  - name: Baby Room
-    sceneName: Room050_GirlsBedroom
-    displayName: Baby Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
-    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 77
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
   - name: Attic Room
     sceneName: Room070_Attic
     displayName: Attic Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 54
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
-  - name: Loft
-    sceneName: Room070_Attic
-    displayName: Loft
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 54
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
-  - name: Gallery
-    sceneName: Room070_Attic
-    displayName: Gallery
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 54
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
-  - name: Top Floor
-    sceneName: Room070_Attic
-    displayName: Top Floor
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 54
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
-  - name: Penthouse
-    sceneName: Room070_Attic
-    displayName: Penthouse
     description: 
     getFromAssetBundleOnEditor: 0
     assetBundleURLOSX: 
@@ -433,6 +113,106 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
+  - name: Kitchen Country
+    sceneName: 0035_KitchenCountry
+    displayName: Kitchen Country
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: ae2a514adad84cffb3f2f7ae2f549b3e, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 62
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
+  - name: Balcony
+    sceneName: Room0090_Veranda_First
+    displayName: Balcony
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 1000
+        hours: 0
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 27
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
+  - name: Master Bedroom
+    sceneName: Room3_Second
+    displayName: Master Bedroom
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 44
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
+  - name: Pink Room
+    sceneName: Room050_GirlsBedroom
+    displayName: Pink Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 77
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
+  - name: Loft
+    sceneName: Room070_Attic
+    displayName: Loft
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 54
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
   - name: Salon
     sceneName: Room040
     displayName: Salon
@@ -453,86 +233,6 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
-  - name: Country
-    sceneName: Room040
-    displayName: Country
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 69
-    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
-  - name: Minimal Room
-    sceneName: Room040
-    displayName: Minimal Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 69
-    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
-  - name: Modern Room
-    sceneName: Room040
-    displayName: Modern Room
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 69
-    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
-  - name: Kitchen
-    sceneName: 0035_KitchenCountry
-    displayName: Kitchen
-    description: 
-    getFromAssetBundleOnEditor: 0
-    assetBundleURLOSX: 
-    assetBundleURLAndroid: 
-    assetBundleURLIOS: 
-    cardSprite: {fileID: 21300000, guid: ae2a514adad84cffb3f2f7ae2f549b3e, type: 3}
-    giftDefinition:
-      gifts:
-      - giftType: 3
-        powerupType: 0
-        boosterType: 0
-        amount: 0
-        hours: 2
-    isOnlyForEditor: 0
-    remove: 0
-    totalStarsInRoom: 62
-    editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
   - name: Island Kitchen
     sceneName: 0035_KitchenCountry
     displayName: Island Kitchen
@@ -553,6 +253,106 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
+  - name: Lanai
+    sceneName: Room0090_Veranda_First
+    displayName: Lanai
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 1000
+        hours: 0
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 27
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
+  - name: Hotel Bedroom
+    sceneName: Room3_Second
+    displayName: Hotel Bedroom
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 44
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
+  - name: Teenager Room
+    sceneName: Room050_GirlsBedroom
+    displayName: Teenager Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 77
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
+  - name: Gallery
+    sceneName: Room070_Attic
+    displayName: Gallery
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 54
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
+  - name: Country
+    sceneName: Room040
+    displayName: Country
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 69
+    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: Galley Kitchen
     sceneName: 0035_KitchenCountry
     displayName: Galley Kitchen
@@ -573,6 +373,106 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
+  - name: Patio
+    sceneName: Room0090_Veranda_First
+    displayName: Patio
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 1000
+        hours: 0
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 27
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
+  - name: Modern Bedroom
+    sceneName: Room3_Second
+    displayName: Modern Bedroom
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 44
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
+  - name: Daughter Room
+    sceneName: Room050_GirlsBedroom
+    displayName: Daughter Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 77
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
+  - name: Top Floor
+    sceneName: Room070_Attic
+    displayName: Top Floor
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 54
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
+  - name: Minimal Room
+    sceneName: Room040
+    displayName: Minimal Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 69
+    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: Modern Kitchen
     sceneName: 0035_KitchenCountry
     displayName: Modern Kitchen
@@ -593,6 +493,106 @@ MonoBehaviour:
     remove: 0
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
+  - name: Portico
+    sceneName: Room0090_Veranda_First
+    displayName: Portico
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: ffbe2bce77544c70b7a9c48daad6b3d7, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 0
+        powerupType: 0
+        boosterType: 0
+        amount: 1000
+        hours: 0
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 27
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
+  - name: Guest Room
+    sceneName: Room3_Second
+    displayName: Guest Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: e96bb5ca61a548869384a6746eb0a500, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 44
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
+  - name: Baby Room
+    sceneName: Room050_GirlsBedroom
+    displayName: Baby Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/OSX/livingroom1
+    assetBundleURLAndroid: http://ggmultiplayer-backend.s3.amazonaws.com/ggmatch3/rooms/v1/livingroom1
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a716bd58ad8c420783a76530a0eadbf8, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 77
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
+  - name: Penthouse
+    sceneName: Room070_Attic
+    displayName: Penthouse
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: a94c06ec76ad46b3bb747af18d02cb3c, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 54
+    editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
+  - name: Modern Room
+    sceneName: Room040
+    displayName: Modern Room
+    description: 
+    getFromAssetBundleOnEditor: 0
+    assetBundleURLOSX: 
+    assetBundleURLAndroid: 
+    assetBundleURLIOS: 
+    cardSprite: {fileID: 21300000, guid: eae535e360af4c3abd88d2a7874d283f, type: 3}
+    giftDefinition:
+      gifts:
+      - giftType: 3
+        powerupType: 0
+        boosterType: 0
+        amount: 0
+        hours: 2
+    isOnlyForEditor: 0
+    remove: 0
+    totalStarsInRoom: 69
+    editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: House Kitchen
     sceneName: 0035_KitchenCountry
     displayName: House Kitchen

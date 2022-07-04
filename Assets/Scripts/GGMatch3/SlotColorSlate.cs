@@ -16,7 +16,8 @@ namespace GGMatch3
 
 		public override int blockerLevel => level;
 
-		public override int sortingOrder => 5;
+		public int _sortingOrder = 5;
+		public override int sortingOrder => _sortingOrder;
 
 		public override bool isMovingWithConveyor => false;
 

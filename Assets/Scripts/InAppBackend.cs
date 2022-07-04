@@ -2,6 +2,7 @@ using GGMatch3;
 using ProtoModels;
 using System;
 using System.Collections.Generic;
+using EasyMobile;
 using UnityEngine;
 
 public class InAppBackend : BehaviourSingletonInit<InAppBackend>
@@ -106,13 +107,15 @@ public class InAppBackend : BehaviourSingletonInit<InAppBackend>
 		PurchaseEventArguments purchaseEventArguments = default(PurchaseEventArguments);
 		purchaseEventArguments.productId = productId;
 		purchaseEventArguments.isSuccess = false;
+		
 		if (FindInAppForId(productId) == null)
 		{
 			CallListenersOnPurchase(purchaseEventArguments);
 		}
 		else
 		{
-			inApp.buy(productId);
+			IAPManager.Purchase(productId);
+			// inApp.buy(productId);
 		}
 	}
 
@@ -146,19 +149,28 @@ public class InAppBackend : BehaviourSingletonInit<InAppBackend>
 	{
 		if (!IsInitialized())
 		{
-			inApp = GGInAppPurchase.instance;
-			inApp.onSetupComplete += OnSetupComplete;
-			inApp.onPurchaseComplete += OnProductPurchased;
-			PurchasesList purchasesList = new PurchasesList();
-			purchasesList.Add(ScriptableObjectSingleton<OffersDB>.instance.products);
-			List<string> consumableProductIds = purchasesList.consumableProductIds;
-			List<string> nonConsumableProductIds = purchasesList.nonConsumableProductIds;
-			inApp.start(consumableProductIds.ToArray(), nonConsumableProductIds.ToArray(), ScriptableObjectSingleton<OffersDB>.instance.base64EncodedPublicKey);
+			// inApp = GGInAppPurchase.instance;
+			// inApp.onSetupComplete += OnSetupComplete;
+			// inApp.onPurchaseComplete += OnProductPurchased;
+			IAPManager.PurchaseCompleted += x =>
+			{
+				Debug.LogError(x == null);
+				OnProductPurchased(new GGInAppPurchase.PurchaseResponse(x.Id, GGInAppPurchase.PurchaseResponseCode.Success));
+			};
+			// PurchasesList purchasesList = new PurchasesList();
+			// purchasesList.Add(ScriptableObjectSingleton<OffersDB>.instance.products);
+			// List<string> consumableProductIds = purchasesList.consumableProductIds;
+			// List<string> nonConsumableProductIds = purchasesList.nonConsumableProductIds;
+			// inApp.start(consumableProductIds.ToArray(), nonConsumableProductIds.ToArray(), ScriptableObjectSingleton<OffersDB>.instance.base64EncodedPublicKey);
 		}
 	}
 
 	public string LocalisedPriceString(string productId)
 	{
+		var price = "";
+		IAPProduct pd = IAPManager.GetIAPProductByName(productId);
+		price = pd.Price;
+		return price;
 		if (inApp == null)
 		{
 			return "Buy";
@@ -199,12 +211,12 @@ public class InAppBackend : BehaviourSingletonInit<InAppBackend>
 		if (GGPlayerSettings.instance.IsPurchaseConsumed(response.purchaseToken))
 		{
 			UnityEngine.Debug.Log("PURCHASE ALREADY CONSUMED");
-			inApp.consumePurchase(response.purchaseToken);
+			// inApp.consumePurchase(response.purchaseToken);
 			CallListenersOnPurchase(purchaseEventArguments);
 			return;
 		}
 		product.ConsumeProduct();
-		inApp.consumePurchase(response.purchaseToken);
+		// inApp.consumePurchase(response.purchaseToken);
 		purchaseEventArguments.isSuccess = true;
 		InAppPurchaseDAO inAppPurchaseDAO = new InAppPurchaseDAO();
 		inAppPurchaseDAO.productId = productId;
@@ -237,7 +249,8 @@ public class InAppBackend : BehaviourSingletonInit<InAppBackend>
 	{
 		if (!pause)
 		{
-			inApp.restorePurchases();
+			if(inApp != null)
+				inApp.restorePurchases();
 		}
 	}
 

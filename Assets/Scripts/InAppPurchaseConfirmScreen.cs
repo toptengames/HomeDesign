@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using EasyMobile;
 using UnityEngine;
 
 public class InAppPurchaseConfirmScreen : UILayer, InAppBackend.Listener
@@ -289,18 +290,40 @@ public class InAppPurchaseConfirmScreen : UILayer, InAppBackend.Listener
 	private void OnEnable()
 	{
 		BehaviourSingletonInit<InAppBackend>.instance.AddListener(this);
+		IAPManager.PurchaseCompleted += OnPurchaseSuccess;
+		IAPManager.PurchaseFailed += OnPurchaseFailed;
 		Init();
 	}
 
 	private void OnDisable()
 	{
 		BehaviourSingletonInit<InAppBackend>.instance.RemoveListener(this);
+		IAPManager.PurchaseCompleted -= OnPurchaseSuccess;
+		IAPManager.PurchaseFailed -= OnPurchaseFailed;
 	}
 
 	public void OnInitialized(InAppBackend.InitializeArguments initializeArguments)
 	{
 	}
 
+	private void OnPurchaseSuccess(IAPProduct product)
+	{
+		// OnPurchase(new InAppBackend.PurchaseEventArguments
+		// {
+		// 	isSuccess = true,
+		// 	productId = product.Id,
+		// });
+	}
+
+	private void OnPurchaseFailed(IAPProduct product)
+	{
+		// OnPurchase(new InAppBackend.PurchaseEventArguments
+		// {
+		// 	isSuccess = false,
+		// 	productId = product.Id,
+		// });
+	}
+	
 	public void OnPurchase(InAppBackend.PurchaseEventArguments purchaseParams)
 	{
 		if (updateAnimation != null)

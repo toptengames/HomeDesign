@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using ITSoft;
 using TMPro;
 using UnityEngine;
 
@@ -215,9 +216,12 @@ public class GiftBoxScreen : MonoBehaviour
 					return true;
 				}
 				GGUtil.Hide(giftBoxScreen.giftBoxContainer);
+				if(PlayerPrefs.GetInt("FirstGift", 0) == 1)
+					AdsManager.ShowInterstitial();
 				GGUtil.Show(giftBoxScreen.openContainer);
 				GGSoundSystem.Play(GGSoundSystem.SFXType.GiftOpen);
 				_003CwaitingEnum_003E5__2 = giftBoxScreen.waitForTap.DoWaitForTap();
+				PlayerPrefs.SetInt("FirstGift", 1);
 				break;
 			}
 			if (_003CwaitingEnum_003E5__2.MoveNext())
