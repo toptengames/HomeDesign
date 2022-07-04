@@ -16,7 +16,7 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 3045742898978717
+  - 1335322296880506
   appLabels:
   - App Name
   cookie: 1
@@ -24,7 +24,7 @@ MonoBehaviour:
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: 
+  androidKeystorePath: D:/ITSoft/HomeDesign/Keystore/user2.keystore
   iosURLSuffix: 
   appLinkSchemes:
   - list: []

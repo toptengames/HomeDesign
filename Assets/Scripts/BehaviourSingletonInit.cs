@@ -27,7 +27,7 @@ public class BehaviourSingletonInit<T> : MonoBehaviourInit where T : MonoBehavio
 			{
 				if ((Object)_instance == (Object)null)
 				{
-					_instance = (T)UnityEngine.Object.FindObjectOfType(typeof(T));
+					_instance = GameObject.FindObjectOfType<T>(true);
 					if (UnityEngine.Object.FindObjectsOfType(typeof(T)).Length > 1)
 					{
 						UnityEngine.Debug.LogError("[Singleton] Something went really wrong  - there should never be more than 1 singleton! Reopenning the scene might fix it.");

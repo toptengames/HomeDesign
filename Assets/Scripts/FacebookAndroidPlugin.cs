@@ -18,7 +18,7 @@ public class FacebookAndroidPlugin : IFacebookProvider
 
 	public FacebookAndroidPlugin()
 	{
-		return;
+		// return;
 		if (Application.platform == RuntimePlatform.Android)
 		{
 			using (AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.giraffegames.unityutil.GGFacebook"))
@@ -30,7 +30,7 @@ public class FacebookAndroidPlugin : IFacebookProvider
 
 	public override void Login(FBLoginParams loginParams)
 	{
-		return;
+		// return;
 		_003C_003Ec__DisplayClass2_0 _003C_003Ec__DisplayClass2_ = new _003C_003Ec__DisplayClass2_0();
 		_003C_003Ec__DisplayClass2_.loginParams = loginParams;
 		if (Application.platform == RuntimePlatform.Android)
@@ -42,7 +42,7 @@ public class FacebookAndroidPlugin : IFacebookProvider
 
 	public override bool IsInitialized()
 	{
-		return false;
+		// return false;
 		if (Application.platform != RuntimePlatform.Android)
 		{
 			return true;

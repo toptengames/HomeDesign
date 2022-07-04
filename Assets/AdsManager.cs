@@ -46,8 +46,8 @@ namespace ITSoft {
         private void InitIronSDK()
         {
 #if UNITY_ANDROID
-            string appKey = "85460dcd";
-            // string appKey = "10b87ce95";
+            // string appKey = "85460dcd";
+            string appKey = "12ce2075d";
 #elif UNITY_IPHONE
         string appKey = "8545d445";
 #else
@@ -121,6 +121,11 @@ namespace ITSoft {
         {
             // if (BizzyBeeGames.IAPManager.Instance.IsProductPurchased("removeads"))
             //     return;
+#if UNITY_EDITOR
+            Debug.Log("Show Inter");
+            ViewComplete?.Invoke();
+            return;
+#endif
             if (removeAds)
             {
                 ViewComplete?.Invoke();

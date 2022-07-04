@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using ITSoft;
 using TMPro;
 using UnityEngine;
 
@@ -215,6 +216,7 @@ public class GiftBoxScreen : MonoBehaviour
 					return true;
 				}
 				GGUtil.Hide(giftBoxScreen.giftBoxContainer);
+					AdsManager.ShowInterstitial();
 				GGUtil.Show(giftBoxScreen.openContainer);
 				GGSoundSystem.Play(GGSoundSystem.SFXType.GiftOpen);
 				_003CwaitingEnum_003E5__2 = giftBoxScreen.waitForTap.DoWaitForTap();

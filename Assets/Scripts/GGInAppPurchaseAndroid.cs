@@ -230,7 +230,6 @@ public class GGInAppPurchaseAndroid : GGInAppPurchase
 
 	public override void buy(string productId)
 	{
-		return;
 		if (!isSetupFinished() && !Application.isEditor)
 		{
 			purchaseCanceled(productId);

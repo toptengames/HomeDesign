@@ -1443,6 +1443,11 @@ public class AssembleCarScreen : MonoBehaviour, Match3GameListener
 			{
 				GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.diamonds, Match3Settings.instance.moneyPickupAnimationSettings.numberOfStars);
 			}
+
+			if (PlayerPrefs.GetInt("Logged", 0) == 1)
+			{
+				BehaviourSingleton<MessageUtility>.instance.AutoSave();
+			}
 			BehaviourSingleton<EnergyManager>.instance.AddLifeIfNotFreeEnergy();
 		}
 		else

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using ITSoft;
 using UnityEngine;
 using UnityEngine.Playables;
+using Debug = UnityEngine.Debug;
 
 public class WinScreen : MonoBehaviour
 {
@@ -895,7 +896,21 @@ public class WinScreen : MonoBehaviour
 		particles.DestroyCreatedObjects();
 		animationEnum = DoPlainAnimation();
 		animationEnum.MoveNext();
-		// AdsManager.ShowInterstitial();
+		var levelNumber = Match3StagesDB.instance.passedStages;
+		Debug.LogError($"level_complete_{levelNumber}");
+		AnalyticsManager.Log($"level_complete_{levelNumber}");
+		if(levelNumber >= 49)
+		{
+			var completelevels = PlayerPrefs.GetInt("CompleteLevels", 0);
+			completelevels++;
+			if (completelevels == 3)
+			{
+				completelevels = 0;
+				AdsManager.ShowInterstitial();
+			}
+
+			PlayerPrefs.SetInt("CompleteLevels", completelevels);
+		}
 	}
 
 	private void SetAlpha(List<CanvasGroup> list, float alpha)
