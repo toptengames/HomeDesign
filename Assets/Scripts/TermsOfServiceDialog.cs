@@ -33,13 +33,13 @@ public class TermsOfServiceDialog : MonoBehaviour
 
 	public void ButtonCallback_OnTermsOfService()
 	{
-		Application.OpenURL("http://www.giraffe-games.com/terms-of-use/");
+		Application.OpenURL("https://sites.google.com/view/terms-services-home-design/home");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 
 	public void ButtonCallback_OnPrivacyPolicy()
 	{
-		Application.OpenURL("http://www.giraffe-games.com/privacy-policy/");
+		Application.OpenURL("https://sites.google.com/view/artplaygames/home");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 }

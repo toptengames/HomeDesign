@@ -101,7 +101,7 @@ public class PreGameDialog : MonoBehaviour
 		GGUtil.ChangeText(stageNameLabel, $"Level {stage.index + 1}");
 		if (stage.shouldUseStarDialog)
 		{
-			GGUtil.ChangeText(stageNameLabel, "Get a Star");
+			GGUtil.ChangeText(stageNameLabel, "Get Cash");
 			starStyle.Apply();
 		}
 		else

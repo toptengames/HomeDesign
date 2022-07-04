@@ -379,5 +379,21 @@ namespace GGMatch3
 		{
 			ProtoIO.SaveToFileCS("st.bytes", model);
 		}
+
+		public Match3Stages GetModel()
+		{
+			if (!ProtoIO.LoadFromFileLocal("st.bytes", out model))
+			{
+				model = new Match3Stages();
+			}
+
+			return model;
+		}
+
+		public void SetNewModel(Match3Stages _model)
+		{
+			model = _model;
+			SaveModel();
+		}
 	}
 }

@@ -325,6 +325,18 @@ public class RoomsBackend : SingletonInit<RoomsBackend>
 		RenewRoomAccessors();
 	}
 
+	public RoomDecoration GetModel()
+	{
+		return model;
+	}
+
+	public void SetNewModel(RoomDecoration _model)
+	{
+		model_ = _model;
+		Save();
+		RenewRoomAccessors();
+	}
+
 	public override void Init()
 	{
 		base.Init();

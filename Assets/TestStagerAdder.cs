@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class TestStagerAdder : MonoBehaviour
 {
+    public GiftBoxScreen scree;
     public int startStage = 10;
     public int maxStage = 350;
     
@@ -14,7 +15,6 @@ public class TestStagerAdder : MonoBehaviour
     {
         var match3DB = Match3StagesDB.instance;
         var stages = match3DB.stages;
-        if (stages.Count >= 2000) yield break;
         var delkay = new WaitForSeconds(0.05f);
         while (match3DB.stages.Count != 2000)
         {
@@ -31,6 +31,12 @@ public class TestStagerAdder : MonoBehaviour
         Debug.LogError("Add levels complete!");
     }
 
+    [ContextMenu("test")]
+    public void ShowGift()
+    {
+        scree.Show(new GiftBoxScreen.ShowArguments());
+    }
+    
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.O))

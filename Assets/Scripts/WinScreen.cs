@@ -6,6 +6,7 @@ using System.Diagnostics;
 using ITSoft;
 using UnityEngine;
 using UnityEngine.Playables;
+using Debug = UnityEngine.Debug;
 
 public class WinScreen : MonoBehaviour
 {
@@ -882,6 +883,7 @@ public class WinScreen : MonoBehaviour
 
 	private void Init(InitArguments initArguments)
 	{
+		initArguments.additionalCoins += 50;
 		this.initArguments = initArguments;
 		tapState = default(TapState);
 		GGUtil.Hide(tapContainer);
@@ -895,6 +897,13 @@ public class WinScreen : MonoBehaviour
 		particles.DestroyCreatedObjects();
 		animationEnum = DoPlainAnimation();
 		animationEnum.MoveNext();
+		var levelNumber = Match3StagesDB.instance.passedStages;
+		Debug.LogError($"level_complete_{levelNumber}");
+		AnalyticsManager.Log($"level_complete_{levelNumber}");
+		if(levelNumber >= 49)
+		{
+			AdsManager.ShowInterstitial();
+		}
 		// AdsManager.ShowInterstitial();
 	}
 
