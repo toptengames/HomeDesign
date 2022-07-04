@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using ITSoft;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -911,6 +912,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			ScrollableSelectRoomScreen.ChangeRoomArguments changeRoomArguments = new ScrollableSelectRoomScreen.ChangeRoomArguments();
 			changeRoomArguments.passedRoom = loadedRoom;
 			changeRoomArguments.unlockedRoom = ScriptableObjectSingleton<RoomsDB>.instance.NextRoom(loadedRoom);
+			changeRoomArguments.unlockedRoom.isPassed = true;
 			nav.GetObject<ScrollableSelectRoomScreen>().Show(changeRoomArguments);
 		}
 
@@ -1770,6 +1772,10 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			{
 				GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.diamonds, moneyPickupAnimation.settings.numberOfStars);
 			}
+			if (PlayerPrefs.GetInt("Logged", 0) == 1)
+			{
+				BehaviourSingleton<MessageUtility>.instance.AutoSave();
+			}
 			BehaviourSingleton<EnergyManager>.instance.AddLifeIfNotFreeEnergy();
 		}
 		else
@@ -1865,6 +1871,10 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		roomItemBoughtEvent.numberOfItemsOwned = scene.ownedItemsCount;
 		roomItemBoughtEvent.Send();
 		GGSoundSystem.Play(GGSoundSystem.SFXType.FlyIn);
+		var designNumber = PlayerPrefs.GetInt("designNumber", 0);
+		designNumber++;
+		AnalyticsManager.Log($"design_complete_{designNumber}");
+		PlayerPrefs.SetInt("designNumber", designNumber);
 	}
 
 	public void ConfirmPurchasePanelCallback_OnClosed()

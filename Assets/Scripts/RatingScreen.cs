@@ -133,7 +133,8 @@ public class RatingScreen : MonoBehaviour
 				return false;
 			}
 			ScriptableObjectSingleton<RateCallerSettings>.instance.OnUserRated();
-			GGSupportMenu.instance.showRateApp(ConfigBase.instance.platformRateProvider);
+			Application.OpenURL("https://play.google.com/store/apps/details?id=com.lovemakeover.homedesign");
+			// GGSupportMenu.instance.showRateApp(ConfigBase.instance.platformRateProvider);
 			ratingScreen.End(isLike: true, isGoingToRate: true);
 			return false;
 		}

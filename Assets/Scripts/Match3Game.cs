@@ -2579,6 +2579,16 @@ public class Match3Game : MonoBehaviour
 	private void AddSlotColorSlot(Slot slot, LevelDefinition.SlotDefinition slotDef)
 	{
 		SlotColorSlate slotColorSlate = new SlotColorSlate();
+		if (slotDef.colorSlateLevel == 2)
+		{
+			slotColorSlate._sortingOrder = 9;
+			var spriteName = slotDef.colorSlateSpriteName;
+			var sprite = transform.Find(spriteName);
+			if (sprite != null)
+			{
+				GGUtil.SetActive(sprite.gameObject, true);
+			}
+		}
 		slotColorSlate.Init(slotDef.colorSlateLevel);
 		if (isHudEnabled)
 		{
@@ -2588,10 +2598,20 @@ public class Match3Game : MonoBehaviour
 			GGUtil.SetActive(multiLayerItemBehaviour, active: true);
 			slotColorSlate.Add(multiLayerItemBehaviour);
 			TransformBehaviour component = multiLayerItemBehaviour.GetComponent<TransformBehaviour>();
+			if (slotDef.colorSlateLevel == 2)
+			{
+				var spriteName = slotDef.colorSlateSpriteName;
+				var sprite = component.transform.GetChild(1).GetChild(0).GetChild(1).Find(spriteName);
+				if (sprite != null)
+				{
+					GGUtil.SetActive(sprite.gameObject, true);
+				}
+			}
 			component.localPosition = slot.localPositionOfCenter;
 			slotColorSlate.Add(component);
 		}
 		slot.AddComponent(slotColorSlate);
+		
 	}
 
 	public void AddBurriedElementSlot(Slot slot, LevelDefinition.BurriedElement burriedElement)

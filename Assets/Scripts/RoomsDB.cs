@@ -70,7 +70,14 @@ public class RoomsDB : ScriptableObjectSingleton<RoomsDB>
 			}
 		}
 
-		public bool isPassed => roomAccessor.isPassed;
+		public bool isPassed
+		{
+			get => roomAccessor.isPassed;
+			set
+			{
+				roomAccessor.isPassed = value;
+			}
+		}
 
 		public bool isLocked => !isOpen;
 
@@ -79,7 +86,7 @@ public class RoomsDB : ScriptableObjectSingleton<RoomsDB>
 			get
 			{
 				int num = rooms.IndexOf(this);
-				if (num <= 0)
+					if (num <= 0)
 				{
 					return true;
 				}

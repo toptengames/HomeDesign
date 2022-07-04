@@ -8,9 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import <IronSource/IronSource.h>
-static NSString *  UnityGitHash = @"0f6e461";
+static NSString *  UnityGitHash = @"fa09648";
 
-@interface iOSBridge : NSObject<ISRewardedVideoDelegate,ISDemandOnlyRewardedVideoDelegate, ISInterstitialDelegate,ISDemandOnlyInterstitialDelegate, ISOfferwallDelegate, ISBannerDelegate, ISSegmentDelegate,ISImpressionDataDelegate, ISConsentViewDelegate>
+@interface iOSBridge : NSObject<ISRewardedVideoDelegate,
+								ISDemandOnlyRewardedVideoDelegate, 
+								ISInterstitialDelegate,
+								ISDemandOnlyInterstitialDelegate,
+								ISOfferwallDelegate,
+								ISBannerDelegate,
+								ISSegmentDelegate,
+								ISImpressionDataDelegate,
+								ISConsentViewDelegate,
+								ISRewardedVideoManualDelegate,
+								ISInitializationDelegate>
 
 @end
 

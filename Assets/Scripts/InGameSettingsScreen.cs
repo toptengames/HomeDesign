@@ -37,7 +37,7 @@ public class InGameSettingsScreen : MonoBehaviour
 
 	public void ButtonCallback_OnRate()
 	{
-		GGSupportMenu.instance.showRateApp(ConfigBase.instance.platformRateProvider);
+		Application.OpenURL("https://play.google.com/store/apps/details?id=com.lovemakeover.homedesign");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 

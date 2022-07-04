@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "871394404539",
-    "project_id": "home-design---extreme",
-    "storage_bucket": "home-design---extreme.appspot.com"
+    "project_number": "933688748635",
+    "project_id": "love-makeover---home-design",
+    "storage_bucket": "love-makeover---home-design.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:871394404539:android:46e9b7618b9b224e51619e",
+        "mobilesdk_app_id": "1:933688748635:android:02b17d79a007cae17fad7e",
         "android_client_info": {
-          "package_name": "com.extreme.makeover.design"
+          "package_name": "com.lovemakeover.homedesign"
         }
       },
       "oauth_client": [
         {
-          "client_id": "871394404539-3dhsbo1b7v0j89l11un3um4eut6ggmfs.apps.googleusercontent.com",
+          "client_id": "933688748635-iudjhokpmm7qe62f2d2d4qohtlfrolfj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQSuyvM6bp1Xtnrg9ijwQY88vFg-QhDGM"
+          "current_key": "AIzaSyDQdxxK0EVGwb0eQb9W1DD4FkBUZZ4q-KY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "871394404539-3dhsbo1b7v0j89l11un3um4eut6ggmfs.apps.googleusercontent.com",
+              "client_id": "933688748635-iudjhokpmm7qe62f2d2d4qohtlfrolfj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
