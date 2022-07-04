@@ -31,7 +31,7 @@ MonoBehaviour:
   fakeFacebookPlayerId: 10158145076947211
   useFakeApplePlayerId: 0
   fakeApplePlayerId: 001102.db521e0b6a674819919c5eaf727b128c.1231
-  facebookAppId: 3045742898978717
+  facebookAppId: 1114823356001633
   facebookAppPlayerSuffix: -m3
   facebookLoginPermissions: public_profile
   facebookMockResponse: '{"access_token":"EAANie31ws34BALam48xVa2A8FwqkXuYYTIEZAKGHsr5mHvHO2G00oRJN65rZCMQQqyvv62ofMzWfZBvVKu50vbxzb7IprieYjpNsZAaRLbQx9x03wRyYpU967E32ivsgDshfoktBZBaYRRWJ6ZBbVhaUH4D3tH6xh8FjBYq870S5BkKIwBmH0a19pFp1q3qQYo54RCrFRP9MpEudGhTcoCPvvYteb4q3nOtkV0YXlK3QZDZD","opened":true,"permissions":"public_profile","expiration_timestamp":"1595599312","last_refresh":"1590415312","callback_id":"2","user_id":"10158145076947211","graph_domain":"facebook","declined_permissions":""}'

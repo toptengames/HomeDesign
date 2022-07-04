@@ -106,6 +106,8 @@ public class UIWaitForTap : MonoBehaviour
 
 	private TapState tapState;
 
+	private bool isTapped = false;
+	
 	public void Hide()
 	{
 		tapState = default(TapState);
@@ -130,14 +132,24 @@ public class UIWaitForTap : MonoBehaviour
 
 	public void ButtonCallback_OnTap()
 	{
-		if(PlayerPrefs.GetInt("FirstGift", 0) == 1)
-			AdsManager.ShowInterstitial();
-		if (tapState.isWaitingForTap && !tapState.isTapped)
-		{
-			GGUtil.Hide(this);
-			tapState.isTapped = true;
-			tapState.CallOnTap();
-			PlayerPrefs.SetInt("FirstGift", 1);
-		}
+
+			if (tapState.isWaitingForTap && !tapState.isTapped)
+			{
+				GGUtil.Hide(this);
+				tapState.isTapped = true;
+				tapState.CallOnTap();
+			}
+		// if(PlayerPrefs.GetInt("FirstGift", 0) == 0)
+		// {
+		// 	if (tapState.isWaitingForTap && !tapState.isTapped)
+		// 	{
+		// 		GGUtil.Hide(this);
+		// 		tapState.isTapped = true;
+		// 		tapState.CallOnTap();
+		// 		PlayerPrefs.SetInt("FirstGift", 1);
+		// 	}
+		// 	return;
+		// }
+		
 	}
 }

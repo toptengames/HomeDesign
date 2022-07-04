@@ -55,7 +55,7 @@ public class BehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour
 		}
 		else
 		{
-			applicationIsQuitting = true;
+			applicationIsQuitting = false;
 		}
 	}
 }

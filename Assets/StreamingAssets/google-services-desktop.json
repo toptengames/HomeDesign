@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "871394404539",
-    "project_id": "home-design---extreme",
-    "storage_bucket": "home-design---extreme.appspot.com"
+    "project_number": "172318934569",
+    "firebase_url": "https://design-fantasy---home-decor-default-rtdb.firebaseio.com",
+    "project_id": "design-fantasy---home-decor",
+    "storage_bucket": "design-fantasy---home-decor.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:871394404539:android:46e9b7618b9b224e51619e",
+        "mobilesdk_app_id": "1:172318934569:android:e781d69feaaf1543617e38",
         "android_client_info": {
-          "package_name": "com.extreme.makeover.design"
+          "package_name": "com.design.fantasy.homedecor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "871394404539-3dhsbo1b7v0j89l11un3um4eut6ggmfs.apps.googleusercontent.com",
+          "client_id": "172318934569-j7i713bg88qkc97a3f05av0ftcnelf54.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQSuyvM6bp1Xtnrg9ijwQY88vFg-QhDGM"
+          "current_key": "AIzaSyD794mNXvbMA5XTbcZ08_y92efaMtrvGxI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "871394404539-3dhsbo1b7v0j89l11un3um4eut6ggmfs.apps.googleusercontent.com",
+              "client_id": "172318934569-j7i713bg88qkc97a3f05av0ftcnelf54.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
