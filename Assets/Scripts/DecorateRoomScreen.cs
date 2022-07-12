@@ -912,6 +912,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			nav.Pop(activateNextScreen: false);
 			ScrollableSelectRoomScreen.ChangeRoomArguments changeRoomArguments = new ScrollableSelectRoomScreen.ChangeRoomArguments();
 			changeRoomArguments.passedRoom = loadedRoom;
+			changeRoomArguments.passedRoom.isPassed = true;
 			changeRoomArguments.unlockedRoom = ScriptableObjectSingleton<RoomsDB>.instance.NextRoom(loadedRoom);
 			nav.GetObject<ScrollableSelectRoomScreen>().Show(changeRoomArguments);
 		}
@@ -1860,11 +1861,13 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		WalletManager walletManager = GGPlayerSettings.instance.walletManager;
 		GGUtil.SetActive(confirmPurchasePanel, active: false);
 		UnityEngine.Debug.LogFormat("Price is {0} {1}", price.cost, price.currency);
+		#if !UNITY_EDITOR
 		if ((!Application.isEditor || !noCoinsForPurchase) && !walletManager.CanBuyItemWithPrice(price))
 		{
 			ButtonCallback_PlayButtonClick();
 			return;
 		}
+#endif
 		uiItem.visualObjectBehaviour.visualObject.isOwned = true;
 		VariationPanel.InitParams initParams = default(VariationPanel.InitParams);
 		initParams.isPurchased = true;
