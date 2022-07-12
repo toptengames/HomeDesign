@@ -134,7 +134,7 @@ MonoBehaviour:
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
   - name: Balcony
-    sceneName: Room0090_Veranda_First
+    sceneName: Room0090_Veranda_First 1
     displayName: Balcony
     description: 
     getFromAssetBundleOnEditor: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
     totalStarsInRoom: 27
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
   - name: Master Bedroom
-    sceneName: Room3_Second
+    sceneName: Room3_Second 1
     displayName: Master Bedroom
     description: 
     getFromAssetBundleOnEditor: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
     totalStarsInRoom: 44
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
   - name: Pink Room
-    sceneName: Room050_GirlsBedroom
+    sceneName: Room050_GirlsBedroom 1
     displayName: Pink Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
     totalStarsInRoom: 77
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
   - name: Loft
-    sceneName: Room070_Attic
+    sceneName: Room070_Attic 1
     displayName: Loft
     description: 
     getFromAssetBundleOnEditor: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
     totalStarsInRoom: 54
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
   - name: Salon
-    sceneName: Room040
+    sceneName: Room040 1
     displayName: Salon
     description: 
     getFromAssetBundleOnEditor: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: Island Kitchen
-    sceneName: 0035_KitchenCountry
+    sceneName: 0035_KitchenCountry 1
     displayName: Island Kitchen
     description: 
     getFromAssetBundleOnEditor: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
   - name: Lanai
-    sceneName: Room0090_Veranda_First
+    sceneName: Room0090_Veranda_First 2
     displayName: Lanai
     description: 
     getFromAssetBundleOnEditor: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
     totalStarsInRoom: 27
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
   - name: Hotel Bedroom
-    sceneName: Room3_Second
+    sceneName: Room3_Second 2
     displayName: Hotel Bedroom
     description: 
     getFromAssetBundleOnEditor: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
     totalStarsInRoom: 44
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
   - name: Teenager Room
-    sceneName: Room050_GirlsBedroom
+    sceneName: Room050_GirlsBedroom 2
     displayName: Teenager Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     totalStarsInRoom: 77
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
   - name: Gallery
-    sceneName: Room070_Attic
+    sceneName: Room070_Attic 2
     displayName: Gallery
     description: 
     getFromAssetBundleOnEditor: 0
@@ -334,7 +334,7 @@ MonoBehaviour:
     totalStarsInRoom: 54
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
   - name: Country
-    sceneName: Room040
+    sceneName: Room040 2
     displayName: Country
     description: 
     getFromAssetBundleOnEditor: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: Galley Kitchen
-    sceneName: 0035_KitchenCountry
+    sceneName: 0035_KitchenCountry 2
     displayName: Galley Kitchen
     description: 
     getFromAssetBundleOnEditor: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
   - name: Patio
-    sceneName: Room0090_Veranda_First
+    sceneName: Room0090_Veranda_First 3
     displayName: Patio
     description: 
     getFromAssetBundleOnEditor: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
     totalStarsInRoom: 27
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
   - name: Modern Bedroom
-    sceneName: Room3_Second
+    sceneName: Room3_Second 3
     displayName: Modern Bedroom
     description: 
     getFromAssetBundleOnEditor: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
     totalStarsInRoom: 44
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
   - name: Daughter Room
-    sceneName: Room050_GirlsBedroom
+    sceneName: Room050_GirlsBedroom 3
     displayName: Daughter Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
     totalStarsInRoom: 77
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
   - name: Top Floor
-    sceneName: Room070_Attic
+    sceneName: Room070_Attic 3
     displayName: Top Floor
     description: 
     getFromAssetBundleOnEditor: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
     totalStarsInRoom: 54
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
   - name: Minimal Room
-    sceneName: Room040
+    sceneName: Room040 3
     displayName: Minimal Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: Modern Kitchen
-    sceneName: 0035_KitchenCountry
+    sceneName: 0035_KitchenCountry 3
     displayName: Modern Kitchen
     description: 
     getFromAssetBundleOnEditor: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
     totalStarsInRoom: 62
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0035_KitchenCountry/0035_KitchenCountry.unity
   - name: Portico
-    sceneName: Room0090_Veranda_First
+    sceneName: Room0090_Veranda_First 4
     displayName: Portico
     description: 
     getFromAssetBundleOnEditor: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
     totalStarsInRoom: 27
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0090_Veranda/Room0090_Veranda.unity
   - name: Guest Room
-    sceneName: Room3_Second
+    sceneName: Room3_Second 4
     displayName: Guest Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
     totalStarsInRoom: 44
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0020_Bedroom/Room3.unity
   - name: Baby Room
-    sceneName: Room050_GirlsBedroom
+    sceneName: Room050_GirlsBedroom 4
     displayName: Baby Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -554,7 +554,7 @@ MonoBehaviour:
     totalStarsInRoom: 77
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0050_BedroomGirl/Room050_GirlsBedroom.unity
   - name: Penthouse
-    sceneName: Room070_Attic
+    sceneName: Room070_Attic 4
     displayName: Penthouse
     description: 
     getFromAssetBundleOnEditor: 0
@@ -574,7 +574,7 @@ MonoBehaviour:
     totalStarsInRoom: 54
     editorAssetPath: Assets/Art_HomeDesign/Rooms/0070_AtticRoom/Room070_Attic.unity
   - name: Modern Room
-    sceneName: Room040
+    sceneName: Room040 4
     displayName: Modern Room
     description: 
     getFromAssetBundleOnEditor: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
     totalStarsInRoom: 69
     editorAssetPath: Assets/DesignHomeDemo/Scenes/Room040.unity
   - name: House Kitchen
-    sceneName: 0035_KitchenCountry
+    sceneName: 0035_KitchenCountry 4
     displayName: House Kitchen
     description: 
     getFromAssetBundleOnEditor: 0
