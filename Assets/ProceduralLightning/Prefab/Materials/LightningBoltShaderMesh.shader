@@ -1,4 +1,4 @@
-﻿Shader "Custom/LightningBoltShaderMesh1"
+﻿Shader "Custom/LightningBoltShaderMesh"
 {
 	Properties
 	{

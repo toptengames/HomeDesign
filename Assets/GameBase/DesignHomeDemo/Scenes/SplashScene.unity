@@ -149,9 +149,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1441020077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93eb49bebb648cf4c8b86de5c33b4152, type: 3}
+  m_Script: {fileID: 11500000, guid: 0707c3d3aa404b54bad5f0349eb54e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interId: ca-app-pub-1268870789270764/6621918284
+  rewardedId: ca-app-pub-1268870789270764/6387234120
 --- !u!4 &1441020079
 Transform:
   m_ObjectHideFlags: 0
@@ -526,7 +528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3cce347bb23de244ea880aaa502e136f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e17ee033b0a77d24cbe1c43f77ab8f40, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

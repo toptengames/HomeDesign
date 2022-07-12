@@ -66058,7 +66058,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1790521937882061973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95cc01ff1ae5c6a10933af8de6cdb487, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d3533c6d2b8cd2409e50eb99d3e4ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 0}
@@ -66069,22 +66069,22 @@ MonoBehaviour:
   MultiThreaded: 0
   LevelOfDetailDistance: 0
   UseGameTime: 0
-  SortLayerName: UI
+  SortLayerName: 
   SortOrderInLayer: 0
   SoftParticlesFactor: 3
   RenderQueue: -1
-  LightningMaterialMesh: {fileID: 2100000, guid: 56d4769a08b24ca39a8d684b4cc3fe9f, type: 2}
-  LightningMaterialMeshNoGlow: {fileID: 2100000, guid: 02e07a181aed45e7bb7aee20a315b5bb, type: 2}
+  LightningMaterialMesh: {fileID: 2100000, guid: c6b8576004384974191b466f0bdef64b, type: 2}
+  LightningMaterialMeshNoGlow: {fileID: 2100000, guid: db76dde8469c5834887c024ae9f43289, type: 2}
   LightningTexture: {fileID: 2800000, guid: 2ca3b877d9094a309e7d41807d7f1608, type: 3}
   LightningGlowTexture: {fileID: 2800000, guid: 5966dfe067c045ea83a9faf84726dd15, type: 3}
   LightningOriginParticleSystem: {fileID: 0}
   LightningDestinationParticleSystem: {fileID: 0}
   LightningTintColor: {r: 1, g: 1, b: 1, a: 1}
-  GlowTintColor: {r: 0, g: 0.1111112, b: 1, a: 1}
+  GlowTintColor: {r: 0.1, g: 0.2, b: 1, a: 1}
   SourceBlendMode: 5
   DestinationBlendMode: 1
-  JitterMultiplier: 0.1
-  Turbulence: 0.05
+  JitterMultiplier: 0
+  Turbulence: 0
   TurbulenceVelocity: {x: 0, y: 0, z: 0}
   IntensityFlicker: {x: 1, y: 1, z: 1, w: 0}
   IntensityFlickerTexture: {fileID: 0}
@@ -66093,38 +66093,38 @@ MonoBehaviour:
     Maximum: 0.1
   CountRange:
     Minimum: 1
-    Maximum: 3
-  CountProbabilityModifier: 0.2
+    Maximum: 1
+  CountProbabilityModifier: 1
   DelayRange:
     Minimum: 0
     Maximum: 0
   DurationRange:
-    Minimum: 0.08
-    Maximum: 0.15
+    Minimum: 0.06
+    Maximum: 0.12
   TrunkWidthRange:
-    Minimum: 0.075
-    Maximum: 0.15
+    Minimum: 0.1
+    Maximum: 0.2
   LifeTime: 0
   Generations: 6
-  ChaosFactor: 0.1
+  ChaosFactor: 0.075
   ChaosFactorForks: 0.095
   Intensity: 1
-  GlowIntensity: 0.226
-  GlowWidthMultiplier: 5.5
-  FadePercent: 0.3
+  GlowIntensity: 0.1
+  GlowWidthMultiplier: 4
+  FadePercent: 0.15
   FadeInMultiplier: 1
   FadeFullyLitMultiplier: 1
   FadeOutMultiplier: 1
   GrowthMultiplier: 0
-  EndWidthMultiplier: 0.8
-  Forkedness: 0
+  EndWidthMultiplier: 0.5
+  Forkedness: 0.25
   ForkLengthMultiplier: 0.6
   ForkLengthVariance: 0.2
   ForkEndWidthMultiplier: 1
   LightParameters:
     RenderMode: 0
     LightColor: {r: 1, g: 1, b: 1, a: 1}
-    LightPercent: 0.001
+    LightPercent: 0.000001
     LightShadowPercent: 0
     LightIntensity: 0.5
     BounceIntensity: 0
@@ -66134,7 +66134,7 @@ MonoBehaviour:
     LightRange: 0
     CullingMask:
       serializedVersion: 2
-      m_Bits: 0
+      m_Bits: 4294967295
     OrthographicOffset: 0
     FadeInMultiplier: 1
     FadeFullyLitMultiplier: 1

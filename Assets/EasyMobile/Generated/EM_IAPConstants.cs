@@ -8,7 +8,18 @@ namespace EasyMobile
 {
 	public static class EM_IAPConstants
 	{
-		public const string Product_Starter_Pack = "Starter Pack";
+		public const string Product_ggmatch3_starterpack = "ggmatch3.starterpack";
+		public const string Product_ggmatch3_masterpack = "ggmatch3.masterpack";
+		public const string Product_ggmatch3_coins5 = "ggmatch3.coins5";
+		public const string Product_ggmatch3_coins3 = "ggmatch3.coins3";
+		public const string Product_ggmatch3_coins4 = "ggmatch3.coins4";
+		public const string Product_ggmatch3_coins6 = "ggmatch3.coins6";
+		public const string Product_ggmatch3_propack = "ggmatch3.propack";
+		public const string Product_ggmatch3_coins1 = "ggmatch3.coins1";
+		public const string Product_ggmatch3_veteranpack = "ggmatch3.veteranpack";
+		public const string Product_ggmatch3_coins2 = "ggmatch3.coins2";
+		public const string Product_ggmatch3_apprenticepack = "ggmatch3.apprenticepack";
+		public const string Product_ggmatch3_championpack = "ggmatch3.championpack";
 
 	}
 }
