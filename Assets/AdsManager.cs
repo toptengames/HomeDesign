@@ -28,10 +28,7 @@ namespace ITSoft {
 #endif
             instance = this;
             DontDestroyOnLoad(this.gameObject);
-        }
 
-        private void Start()
-        {
             bool.TryParse(PlayerPrefs.GetString("addfreechk", "false"), out removeAds);
 
             Init();
