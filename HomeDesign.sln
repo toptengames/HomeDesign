@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{cb95319f-4e16-829d-fc0c-ee4b38122c8f}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Common", "Google.Play.Common.csproj", "{2876832c-a9a9-9349-9cea-70f93ad17827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Integrity", "Google.Play.Integrity.csproj", "{140f3392-ce8c-8460-7c4e-d8305849550f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{5dbca5f2-6110-1d38-bac2-ebef823594e9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds.Editor", "GoogleMobileAds.Editor.csproj", "{54510933-4d6f-6bbf-da4d-775bc64656c7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2b086c12-04e8-7441-d141-950d0a710789}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{ba31e5d9-5248-8aba-07c4-04a2922e9320}"
@@ -14,6 +24,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{cb95319f-4e16-829d-fc0c-ee4b38122c8f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cb95319f-4e16-829d-fc0c-ee4b38122c8f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2876832c-a9a9-9349-9cea-70f93ad17827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2876832c-a9a9-9349-9cea-70f93ad17827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140f3392-ce8c-8460-7c4e-d8305849550f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140f3392-ce8c-8460-7c4e-d8305849550f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5dbca5f2-6110-1d38-bac2-ebef823594e9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5dbca5f2-6110-1d38-bac2-ebef823594e9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54510933-4d6f-6bbf-da4d-775bc64656c7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54510933-4d6f-6bbf-da4d-775bc64656c7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2b086c12-04e8-7441-d141-950d0a710789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2b086c12-04e8-7441-d141-950d0a710789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ba31e5d9-5248-8aba-07c4-04a2922e9320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
