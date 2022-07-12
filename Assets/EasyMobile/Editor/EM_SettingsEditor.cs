@@ -33,6 +33,7 @@ namespace EasyMobile.Editor
         SerializedProperty isGameServiceModuleEnable;
         SerializedProperty isNotificationModuleEnable;
 
+        
         // Active module (currently selected on the toolbar)
         SerializedProperty activeModuleIndex;
 

@@ -37,7 +37,7 @@ public class InGameSettingsScreen : MonoBehaviour
 
 	public void ButtonCallback_OnRate()
 	{
-		Application.OpenURL("https://play.google.com/store/apps/details?id=com.extreme.makeover.design");
+		Application.OpenURL("https://play.google.com/store/apps/details?id=com.house.makeover.design");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 
@@ -62,13 +62,13 @@ public class InGameSettingsScreen : MonoBehaviour
 
 	public void ButtonCallback_OnTermsOfService()
 	{
-		Application.OpenURL("https://sites.google.com/view/terms-services-home-design/home");
+		Application.OpenURL("https://housedesign.apppage.net/terms");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 
 	public void ButtonCallback_PrivacyPolicy()
 	{
-		Application.OpenURL("https://sites.google.com/view/artplaygames/home");
+		Application.OpenURL("https://housedesign.apppage.net/privacy-policy");
 		GGSoundSystem.Play(GGSoundSystem.SFXType.ButtonPress);
 	}
 }

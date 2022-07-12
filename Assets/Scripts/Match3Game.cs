@@ -862,7 +862,7 @@ public class Match3Game : MonoBehaviour
 					WellDoneContainer.InitArguments initArguments = new WellDoneContainer.InitArguments(action);
 					match3Game.gameScreen.wellDoneContainer.Show(initArguments);
 					match3Game.gameScreen.ShowConfetti();
-					match3Game.board.currentCoins = winScreenArguments.baseStageWonCoins;
+					match3Game.board.currentCoins = winScreenArguments.baseStageWonCoins + 50;
 					match3Game.gameScreen.goalsPanel.ShowCoins();
 					match3Game.gameScreen.goalsPanel.SetCoinsCount(match3Game.board.currentCoins);
 					goto IL_016b;
@@ -1120,7 +1120,7 @@ public class Match3Game : MonoBehaviour
 				{
 					num2 = _003Csettings_003E5__3.outCurve.Evaluate(num2);
 				}
-				Vector3 localPosition = Vector3.LerpUnclamped(_003CstartPos_003E5__6, _003Csettings_003E5__3.offset + _003CstartPos_003E5__6, num2);
+				Vector3 localPosition = Vector3.LerpUnclamped(_003CstartPos_003E5__6, _003Csettings_003E5__3.offset * 2f + _003CstartPos_003E5__6, num2);
 				_003Ct_003E5__5.localPosition = localPosition;
 				_003C_003E2__current = null;
 				_003C_003E1__state = 1;
@@ -3972,6 +3972,14 @@ public class Match3Game : MonoBehaviour
 		{
 			board.isEndConditionReached = false;
 			board.isInteractionSuspended = false;
+		}
+	}
+
+	public void LateUpdate()
+	{
+		if (Input.GetKeyDown(KeyCode.P))
+		{
+			EndGame(true);
 		}
 	}
 

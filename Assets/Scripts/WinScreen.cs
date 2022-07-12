@@ -883,6 +883,7 @@ public class WinScreen : MonoBehaviour
 
 	private void Init(InitArguments initArguments)
 	{
+		initArguments.additionalCoins += 50;
 		this.initArguments = initArguments;
 		tapState = default(TapState);
 		GGUtil.Hide(tapContainer);
@@ -899,7 +900,7 @@ public class WinScreen : MonoBehaviour
 		var levelNumber = Match3StagesDB.instance.passedStages;
 		Debug.LogError($"level_complete_{levelNumber}");
 		AnalyticsManager.Log($"level_complete_{levelNumber}");
-		// AdsManager.ShowInterstitial();
+		AdsManager.ShowInterstitial();
 	}
 
 	private void SetAlpha(List<CanvasGroup> list, float alpha)

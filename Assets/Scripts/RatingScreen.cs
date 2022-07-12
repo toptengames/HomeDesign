@@ -133,7 +133,7 @@ public class RatingScreen : MonoBehaviour
 				return false;
 			}
 			ScriptableObjectSingleton<RateCallerSettings>.instance.OnUserRated();
-			Application.OpenURL("https://play.google.com/store/apps/details?id=com.extreme.makeover.design");
+			Application.OpenURL("https://play.google.com/store/apps/details?id=com.house.makeover.design");
 			// GGSupportMenu.instance.showRateApp(ConfigBase.instance.platformRateProvider);
 			ratingScreen.End(isLike: true, isGoingToRate: true);
 			return false;

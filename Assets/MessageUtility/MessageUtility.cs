@@ -36,7 +36,7 @@ public class MessageUtility : BehaviourSingletonInit<MessageUtility>
     }
 
     // [Serializable]
-    // public class PlayerData
+    // public class PlayerDataa
     // {
     //     public int coins;
     //     public int diamonds;
@@ -45,8 +45,8 @@ public class MessageUtility : BehaviourSingletonInit<MessageUtility>
     //     public byte[] roomsmodel;
     // }
     private FirebaseFirestore databaseReference;
-    private readonly string basePath = "https://home-design---extreme-default-rtdb.firebaseio.com/";
-    private const string Token = "QFoXzIktKSYEPoleM2tfBCZFErE6PEbTLFEwtitW";
+    private readonly string basePath = "https://house-makeover-b3294-default-rtdb.firebaseio.com/";
+    private const string Token = "9CgCCfONEPnrUCVmiDgnKQYGLeli9E9FR3jBBUl8";
     private RequestHelper currentRequest;
 
     private void OnEnable()
@@ -105,6 +105,8 @@ public class MessageUtility : BehaviourSingletonInit<MessageUtility>
 
     public async void AutoSave()
     {
+        databaseReference ??= FirebaseFirestore.DefaultInstance;
+        
         var logged = PlayerPrefs.GetInt("Logged", 0);
         if(logged == 0)
             return;
