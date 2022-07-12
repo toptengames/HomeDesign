@@ -1,6 +1,7 @@
 using GGMatch3;
 using System;
 using System.Collections.Generic;
+using ITSoft;
 using TMPro;
 using UnityEngine;
 
@@ -70,11 +71,14 @@ public class OutOfMovesDialog : MonoBehaviour
 
 	public void OnNotBuyClicked()
 	{
-		if (onNo != null)
+		AdsManager.ShowInterstitial(() =>
 		{
-			onNo(this);
-		}
-		GGSoundSystem.Play(GGSoundSystem.SFXType.CancelPress);
+			if (onNo != null)
+			{
+				onNo(this);
+			}
+			GGSoundSystem.Play(GGSoundSystem.SFXType.CancelPress);
+		});
 	}
 
 	public void Init(BuyMovesPricesConfig.OfferConfig offer)

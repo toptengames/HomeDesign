@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_6;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_6;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;EASY_MOBILE;EM_UIAP;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,33 +41,38 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\WaitForSecondsLightning.cs" />
+     <Compile Include="Assets\Scripts\GGUIDPrivate.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\InAppPurchase\IAPManager.cs" />
      <Compile Include="Assets\Scripts\PreGameDialogGoalPrefabVisualConfig.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Statistical\ModeFunction.cs" />
      <Compile Include="Assets\Scripts\DecoratingScene.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Liquid.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\JsonHelper.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogEconomyVisualConfig.cs" />
      <Compile Include="Assets\Scripts\RateCallerSettings.cs" />
+     <Compile Include="Assets\Scripts\UnityPurchasing\generated\GooglePlayTangle.cs" />
      <Compile Include="Assets\Scripts\RoomSceneRenderObject.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Sepia.cs" />
      <Compile Include="Assets\Scripts\PreGameDialog.cs" />
      <Compile Include="Assets\Scripts\SlotDestroyResolution.cs" />
      <Compile Include="Assets\Scripts\SpriteGroup.cs" />
      <Compile Include="Assets\Scripts\CarVariationButton.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\MeshHelper.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ConveyorBeltPlate.cs" />
      <Compile Include="Assets\Scripts\GiftBoxDisplay.cs" />
      <Compile Include="Assets\Scripts\GGDebug.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdHandler.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\VertexShakeA.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\ICollisionHandler.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Twist.cs" />
-     <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
      <Compile Include="Assets\Scripts\MoveContentsToSlotParams.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\EM_PrefabManager.cs" />
+     <Compile Include="Assets\MessageUtility\LoadingDialog.cs" />
      <Compile Include="Assets\Scripts\GGServerRequestsBackend.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BlackHole.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ShowPotentialMatchSetting.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScript.cs" />
      <Compile Include="Assets\Scripts\ExplodeSlider.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\ResponseHelper.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Hologram2.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_ColorChange.cs" />
      <Compile Include="Assets\Scripts\SelectRoomScreen.cs" />
@@ -75,38 +80,40 @@
      <Compile Include="Assets\Scripts\PlaySoundOnEnable.cs" />
      <Compile Include="Assets\Scripts\ItemSelectionPanel.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Ice.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
      <Compile Include="Assets\Scripts\BubbleImage.cs" />
      <Compile Include="Assets\Scripts\Expressive\Exceptions\ParameterCountMismatchException.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_GoldenFX.cs" />
      <Compile Include="Assets\Scripts\PowerupPlacementHandler.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\AnimatedClip.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Utilities\RatingRequest\Platforms\AndroidNativeUtility.cs" />
      <Compile Include="Assets\Scripts\Analytics.cs" />
-     <Compile Include="Assets\AdsManager.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltShapeConeScript.cs" />
      <Compile Include="Assets\Scripts\BehaviourSingletonInit.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyMatchingIslandBlinkAction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddHoursFunction.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBeamSpellScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Exceptions\ExpressiveException.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseCurrencyPrefab.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Heat.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Pixel8bitsBW.cs" />
      <Compile Include="Assets\Scripts\GiftsDefinitionDB.cs" />
      <Compile Include="Assets\Scripts\Vector3Ex.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
      <Compile Include="Assets\Scripts\PowerCrossAffector.cs" />
      <Compile Include="Assets\Scripts\LightingBolt.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MultiLayerItemBehaviour.cs" />
      <Compile Include="Assets\Scripts\GGCloth\SquareCloth.cs" />
-     <Compile Include="Assets\Scripts\SyncGameScreen.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\ExpFunction.cs" />
+     <Compile Include="Assets\Scripts\SyncGameScreen.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\UnaryExpressionType.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SwapParams.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Hologram2.cs" />
      <Compile Include="Assets\Scripts\GGSoundSystem.cs" />
      <Compile Include="Assets\Scripts\GGFileIOCloudSync.cs" />
+     <Compile Include="Assets\CameraSmartFitter.cs" />
      <Compile Include="Assets\Scripts\LevelEditorMonster.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_GrayScale.cs" />
      <Compile Include="Assets\Scripts\VisualObjectParticles.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeUI\Platforms\AndroidNativeAlert.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\OperatorBase.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_MetalFX.cs" />
      <Compile Include="Assets\Scripts\GGNotificationCenter.cs" />
@@ -118,19 +125,20 @@
      <Compile Include="Assets\Scripts\GGOptimize\Variation.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_WaterAndBackground.cs" />
      <Compile Include="Assets\Scripts\CarModelColliders.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBeamSpellScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Grouping\ParenthesisOpenOperator.cs" />
      <Compile Include="Assets\Scripts\ConflictResolverBase.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeShare\MobileNativeShare.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_CompressionFX.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningMeshSurfaceScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Frozen.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Relational\NotEqualOperator.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGeneratorPath.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TilePosition.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BurningFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_CircleFade.cs" />
-     <Compile Include="Assets\TestStagerAdder.cs" />
      <Compile Include="Assets\Scripts\WallBehaviour.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\ThunderAndLightningScript.cs" />
      <Compile Include="Assets\Scripts\CarDragTarget.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBolt.cs" />
      <Compile Include="Assets\Scripts\UIGGParticleCreator.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\SubstringFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\RegexFunction.cs" />
@@ -141,13 +149,13 @@
      <Compile Include="Assets\Scripts\GGMatch3\FindMatches.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CollectGoalAction.cs" />
      <Compile Include="Assets\Scripts\CarModelPart.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningSpellScript.cs" />
-     <Compile Include="Assets\MessageUtility\EmailDialog.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformState.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoBallDestroyInstantAction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ListSlotsProvider.cs" />
      <Compile Include="Assets\Scripts\CarDragButton.cs" />
      <Compile Include="Assets\Scripts\TMPro\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\PartCollider.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformStateInfo.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\MaxFunction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_GoldenFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_BurningFX.cs" />
@@ -158,40 +166,40 @@
      <Compile Include="Assets\Scripts\CurrencyPurchaseCurrencyVisualConfig.cs" />
      <Compile Include="Assets\Scripts\GGCloth\PointWorld.cs" />
      <Compile Include="Assets\Scripts\ToggleName.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformStateInfo.cs" />
      <Compile Include="Assets\Scripts\GGCloth\SpringLink.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PotentialMatches.cs" />
      <Compile Include="Assets\Scripts\GGMessageConfig.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3Settings.cs" />
      <Compile Include="Assets\Scripts\LootBoxController.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Fire.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningLightParameters.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_CompressionFX.cs" />
      <Compile Include="Assets\Scripts\CharacterVisualObjectSceneItem.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GeneratorSetup.cs" />
      <Compile Include="Assets\Scripts\GameScreenMenu.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGenerator.cs" />
      <Compile Include="Assets\Scripts\UILayer.cs" />
      <Compile Include="Assets\Scripts\HiddenElementBorderRenderer.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\RandomFunction.cs" />
+     <Compile Include="Assets\MessageUtility\MessageUtility.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GoalType.cs" />
-     <Compile Include="Assets\Scripts\LevelEditorGeneratorSetupChip.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Cartoon.cs" />
      <Compile Include="Assets\Scripts\CurrencyPrefabAnimation.cs" />
+     <Compile Include="Assets\Scripts\LevelEditorGeneratorSetupChip.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeShare\Platforms\iOSNativeShare.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Slot.cs" />
      <Compile Include="Assets\Scripts\ExitGameConfirmDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expression.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseException.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltQualitySetting.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningSpellScript.cs" />
      <Compile Include="Assets\Scripts\RotateY.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltDependencies.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
      <Compile Include="Assets\Scripts\PowerupsPanel.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MonsterElementSlotComponent.cs" />
      <Compile Include="Assets\Scripts\MaterialChangeVariation.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Additive.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseLayer.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GoalsPanel.cs" />
      <Compile Include="Assets\Scripts\CarpetSpreadBehaviour.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoPlayerControllerScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_WoodFX.cs" />
      <Compile Include="Assets\Scripts\LoginProviderDialog.cs" />
      <Compile Include="Assets\Scripts\Match3GameParams.cs" />
@@ -199,11 +207,10 @@
      <Compile Include="Assets\Scripts\GGUtil.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddMillisecondsFunction.cs" />
      <Compile Include="Assets\Scripts\PointsDisplayBehaviour.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltShapeSphereScript.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPrefabScript.cs" />
      <Compile Include="Assets\Scripts\CacheStategy.cs" />
      <Compile Include="Assets\Scripts\CarSubPartInfo.cs" />
      <Compile Include="Assets\Scripts\DecoratingSceneConfig.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningParticleSpellScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Relational\LessThanOperator.cs" />
      <Compile Include="Assets\Scripts\MessageDialog.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_SkyCloud.cs" />
@@ -211,21 +218,25 @@
      <Compile Include="Assets\Scripts\GGMatch3\IRemoveFromHistoryEventListener.cs" />
      <Compile Include="Assets\Scripts\UIWaitForTap.cs" />
      <Compile Include="Assets\Scripts\OutOfLivesDialog.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
      <Compile Include="Assets\Scripts\TriggerAnimationEvery.cs" />
      <Compile Include="Assets\Scripts\ChocolateBorderRenderer.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TestExecutor.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MultiLevelGoals.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Distortion.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\CameraController.cs" />
+     <Compile Include="Assets\IAPPurchaser.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CollectBurriedElementAction.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Operators\IOperator.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\ConstantValueExpression.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Operators\IOperator.cs" />
+     <Compile Include="Assets\Scripts\UnityPurchasing\generated\AppleTangle.cs" />
      <Compile Include="Assets\Scripts\ChipFeatherBehaviour.cs" />
      <Compile Include="Assets\Scripts\VisibilityHelper.cs" />
      <Compile Include="Assets\Scripts\MoneyPickupAnimationMoney.cs" />
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\SolidPieceRenderer.cs" />
      <Compile Include="Assets\Scripts\CurrencyCountLabel.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\SolidPieceRenderer.cs" />
      <Compile Include="Assets\Scripts\PieceType.cs" />
      <Compile Include="Assets\Scripts\GGAppleSignIn.cs" />
      <Compile Include="Assets\Scripts\ConfirmPurchasePanel.cs" />
@@ -236,29 +247,31 @@
      <Compile Include="Assets\Scripts\WinScreenStar.cs" />
      <Compile Include="Assets\Scripts\Expressive\ExpressionParser.cs" />
      <Compile Include="Assets\Scripts\CurrencyType.cs" />
-     <Compile Include="Assets\Scripts\GGOptimize\NamedPropertyDataType.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Notification\NotificationSettings.cs" />
      <Compile Include="Assets\Scripts\GameStartedParams.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />
      <Compile Include="Assets\Scripts\TermsOfServiceDialog.cs" />
+     <Compile Include="Assets\Scripts\GGOptimize\NamedPropertyDataType.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_GrassMultiFX.cs" />
+     <Compile Include="Assets\MessageUtility\EmailDialog.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\InterstitialAd.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Lightning.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Functions\Date\SecondsBetweenFunction.cs" />
      <Compile Include="Assets\Scripts\GGInAppPurchaseAndroid.cs" />
      <Compile Include="Assets\Scripts\Match3GameListener.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoPlayerControllerScript.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\CameraMode.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Functions\Date\SecondsBetweenFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\FlyRocketPieceAction.cs" />
+     <Compile Include="Assets\RoomProgressBar.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TextConsoleSimulator.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GameScreen.cs" />
      <Compile Include="Assets\Scripts\ManualScripts.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\JumpRampBehaviour.cs" />
      <Compile Include="Assets\Scripts\SceneObjectsDB.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\YearOfFunction.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\ExtraHints.cs" />
      <Compile Include="Assets\Scripts\CharacterSceneMarker.cs" />
      <Compile Include="Assets\Scripts\Pair.cs" />
      <Compile Include="Assets\Scripts\IceBehaviour.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Interstitial\InterstitialAdScene.cs" />
      <Compile Include="Assets\Scripts\LevelEditorGeneratorSetup.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PipeBehaviour.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Pixel8bitsC64.cs" />
@@ -266,35 +279,35 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_Jelly.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\WobbleAnimation.cs" />
      <Compile Include="Assets\Scripts\Hash.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningSplineScript.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoConfigureScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Bitwise\LeftShiftOperator.cs" />
      <Compile Include="Assets\Scripts\CompletionDialogTask.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\AcosFunction.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LevelDefinition.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Conversion\DecimalFunction.cs" />
      <Compile Include="Assets\Scripts\GeometryConnector.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseStateException.cs" />
      <Compile Include="Assets\Scripts\SubpartVariant.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectSingleton.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\LogFunction.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
      <Compile Include="Assets\Scripts\GGInAppPurchaseAmazon.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\Benchmark04.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Shiny_Reflect.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MagicHat.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Advertising\BannerAdSize.cs" />
      <Compile Include="Assets\Scripts\TextDialog.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGizmoScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BurriedElementPiece.cs" />
      <Compile Include="Assets\Scripts\FileIOChanges.cs" />
      <Compile Include="Assets\Scripts\ProgressMessageList.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Offset.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BasketBlocker.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningWhipScript.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdView.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MillisecondOfFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\IFunction.cs" />
      <Compile Include="Assets\Scripts\ActionScore.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\VariableExpression.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptTriggerPath.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotDestroyParams.cs" />
      <Compile Include="Assets\Scripts\WinScreenCoins.cs" />
      <Compile Include="Assets\Scripts\RoomsStats.cs" />
@@ -302,6 +315,7 @@
      <Compile Include="Assets\Scripts\TMPro\Examples\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectInit.cs" />
      <Compile Include="Assets\Scripts\ConflictResolverGGTableTennis2015.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Worker.cs" />
      <Compile Include="Assets\Scripts\GGPSphereCommand.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_EnergyBar.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\RockBlocker.cs" />
@@ -309,10 +323,10 @@
      <Compile Include="Assets\Scripts\GGMatch3\DiscoChipAffector.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\TruncateFunction.cs" />
      <Compile Include="Assets\Scripts\CharacterVisualObjectVariation.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\InAppPurchase\IAPStore.cs" />
      <Compile Include="Assets\Scripts\RandomRotate.cs" />
      <Compile Include="Assets\Scripts\GGCloth\Constraint.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PowerupCombines.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScript2D.cs" />
      <Compile Include="Assets\Scripts\AnimRandom.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Logical\InFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MonsterElements.cs" />
@@ -322,35 +336,46 @@
      <Compile Include="Assets\Scripts\GGMatch3\SeekingMissileAction.cs" />
      <Compile Include="Assets\Scripts\ToggleSoundsButton.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\RocketPieceBehaviour.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\CameraMode.cs" />
      <Compile Include="Assets\Scripts\BuyPowerupDialog.cs" />
      <Compile Include="Assets\Scripts\PreGameDialogBoosterPrefabVisualConfig.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningParticleCollisionForwarder.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningLightsabreScript.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Advertising\AdLocation.cs" />
      <Compile Include="Assets\Scripts\GGOptimize\BucketRange.cs" />
      <Compile Include="Assets\Scripts\Match3Board.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\VertexColorCycler.cs" />
      <Compile Include="Assets\Scripts\EZCameraShake\CameraShaker.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelper.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltSegmentGroup.cs" />
      <Compile Include="Assets\Scripts\WideAspectBars.cs" />
      <Compile Include="Assets\Scripts\DailyGiftsScreen.cs" />
      <Compile Include="Assets\Scripts\GGCloudSyncFileIO.cs" />
+     <Compile Include="Assets\TestStagerAdder.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPrefabScriptBase.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_DesintegrationFX.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltDependencies.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_EnergyBar.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeUI\Platforms\iOSNativeAlert.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\CosFunction.cs" />
      <Compile Include="Assets\Scripts\BufferTexture.cs" />
      <Compile Include="Assets\Scripts\_2DC_ArrowSelection.cs" />
      <Compile Include="Assets\Scripts\MatchChipAffector.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptPrefabTutorial.cs" />
      <Compile Include="Assets\Scripts\IFacebookProvider.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_LightningBolt.cs" />
      <Compile Include="Assets\Scripts\GGRequestFileCache.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LevelDefinitionTilesSlotsProvider.cs" />
      <Compile Include="Assets\Scripts\MoneyPickupAnimation.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPathScriptBase.cs" />
      <Compile Include="Assets\Scripts\CameraSettings.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Tuple.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\GameService\GameServiceSettings.cs" />
      <Compile Include="Assets\Scripts\VariationPanel.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\GifEncoder.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ConveyorBeltBoardComponent.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise.cs" />
      <Compile Include="Assets\Scripts\_2DxFX.cs" />
+     <Compile Include="Assets\AdsManager.cs" />
+     <Compile Include="Assets\MessageUtility\SuccessDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\HoursBetweenFunction.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\ClipPlayer.cs" />
      <Compile Include="Assets\Scripts\CompletionDialog.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\NetMatchOrDestroyNextToLock.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BubblesPieceBlocker.cs" />
@@ -364,21 +389,19 @@
      <Compile Include="Assets\Scripts\DecoratingScene3DSetup.cs" />
      <Compile Include="Assets\Scripts\RealTime.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_ColorRGB.cs" />
-     <Compile Include="Assets\MessageUtility\SuccessDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Additive\SubtractOperator.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviourInit.cs" />
      <Compile Include="Assets\Scripts\SettingsScreen.cs" />
      <Compile Include="Assets\Scripts\ConfigBase.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Clipping.cs" />
      <Compile Include="Assets\Scripts\GGTest.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ChipBehaviour.cs" />
-     <Compile Include="Assets\Scripts\EZCameraShake\CameraShakeInstance.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Scripts\EZCameraShake\CameraShakeInstance.cs" />
      <Compile Include="Assets\Scripts\SoundPlayer.cs" />
      <Compile Include="Assets\Scripts\VisualSprite.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Logical\IfFunction.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Utilities\RatingRequest\RatingRequestSettings.cs" />
      <Compile Include="Assets\Scripts\SecureLong.cs" />
      <Compile Include="Assets\Scripts\CharacterAnimationPlayer.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_IcedFX.cs" />
@@ -389,10 +412,11 @@
      <Compile Include="Assets\Scripts\CarSprayToolTarget.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotComponentLock.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Posterize.cs" />
-     <Compile Include="Assets\Scripts\LightingSwitcher.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BorderTilemapRenderer.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformState.cs" />
+     <Compile Include="Assets\Scripts\LightingSwitcher.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\FlyCrossRocketAction.cs" />
+     <Compile Include="Assets\MessageUtility\ErrorDialog.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Notification\NotificationManager.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\ParenthesisedExpression.cs" />
      <Compile Include="Assets\Scripts\ScrollableSelectRoomScreenButton.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PowerCrossChipAffector.cs" />
@@ -407,6 +431,7 @@
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MonthOfFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\Log10Function.cs" />
      <Compile Include="Assets\Scripts\OffersDB.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\EM_Settings.cs" />
      <Compile Include="Assets\Scripts\BubbleSlotsBorderRenderer.cs" />
      <Compile Include="Assets\Scripts\StarConsumeAnimationStar.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ExtraFallingChips.cs" />
@@ -419,49 +444,50 @@
      <Compile Include="Assets\Scripts\SnowCoverBorderRenderer.cs" />
      <Compile Include="Assets\Scripts\BeatMarkers.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BoosterConfig.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltParameters.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Conversion\DoubleFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Bitwise\BitwiseAndOperator.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClient.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_CircleFade.cs" />
      <Compile Include="Assets\Scripts\GGFormat.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptManualAutomatic.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_Mystic_Distortion_Additive.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\DaysBetweenFunction.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_Mystic_Distortion_Additive.cs" />
      <Compile Include="Assets\Scripts\CarSubPartVariantInfo.cs" />
      <Compile Include="Assets\Scripts\ScreenMessage.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_StoneFX.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\AsinFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\AtanFunction.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\AsinFunction.cs" />
      <Compile Include="Assets\Scripts\SmoothCameraOrbit.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BubblesBoardComponent.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_MetalFX.cs" />
      <Compile Include="Assets\Scripts\MeshRendererDemo.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BurriedElements.cs" />
      <Compile Include="Assets\Scripts\GGCloudSyncFileIOSync.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoConfigureScript.cs" />
      <Compile Include="Assets\Scripts\CarNutsPool.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TilesRenderer.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseStateException.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\ResponseHelper.cs" />
      <Compile Include="Assets\Scripts\VariantGroupSetup.cs" />
      <Compile Include="Assets\Scripts\GGSnapshotCloudSync.cs" />
      <Compile Include="Assets\Scripts\ProtoModelExtensions.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MagicHatBomb.cs" />
-     <Compile Include="Assets\Scripts\GGCloth\PointMass.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\JsonHelper.cs" />
      <Compile Include="Assets\Scripts\PlayerPositionRequestTest.cs" />
      <Compile Include="Assets\Scripts\vfxController.cs" />
+     <Compile Include="Assets\Scripts\GGCloth\PointMass.cs" />
      <Compile Include="Assets\Scripts\BubblesBoxFloorRenderer.cs" />
-     <Compile Include="Assets\MessageUtility\LoadingDialog.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_4Gradients.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Chip.cs" />
      <Compile Include="Assets\Scripts\RoomsDB.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Recorder.cs" />
      <Compile Include="Assets\Scripts\BuyMenuPanel.cs" />
      <Compile Include="Assets\Scripts\Expressive\Helpers\TypeHelper.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\NetBehaviour.cs" />
      <Compile Include="Assets\Scripts\NavigationButton.cs" />
      <Compile Include="Assets\Scripts\ComponentPool.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Hologram3.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BurnFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BlurHQX.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\MinAttribute.cs" />
      <Compile Include="Assets\Scripts\CopyMaterialChangeVariation.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LockContainer.cs" />
      <Compile Include="Assets\Scripts\VisualObjectVariation.cs" />
@@ -471,14 +497,14 @@
      <Compile Include="Assets\Scripts\DestroyParticleSystemAfterFinish.cs" />
      <Compile Include="Assets\Scripts\ScrewdriverTool.cs" />
      <Compile Include="Assets\Scripts\WinScreen.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_AL_Ice.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Threshold.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_AL_Ice.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogPowerupPrefab.cs" />
      <Compile Include="Assets\Scripts\IntensityChange.cs" />
      <Compile Include="Assets\Scripts\AssembleCarScreen.cs" />
      <Compile Include="Assets\Scripts\OutOfMovesDialog.cs" />
-     <Compile Include="Assets\Scripts\GoalCollectParams.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GameResults.cs" />
+     <Compile Include="Assets\Scripts\GoalCollectParams.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotType.cs" />
      <Compile Include="Assets\Scripts\ChipAffectorBase.cs" />
      <Compile Include="Assets\Scripts\GGFixIslandEdges.cs" />
@@ -490,16 +516,18 @@
      <Compile Include="Assets\Scripts\DestroyUtil.cs" />
      <Compile Include="Assets\Scripts\SingletonInit.cs" />
      <Compile Include="Assets\Scripts\RangeOfFloats.cs" />
+     <Compile Include="Assets\MessageUtility\HasNewestDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Exceptions\UnrecognisedTokenException.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Connection.cs" />
      <Compile Include="Assets\Scripts\ProtoIO.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Common\Helper.cs" />
      <Compile Include="Assets\Scripts\ReplaceTexturesHelper.cs" />
      <Compile Include="Assets\Scripts\GGFileIOUnity.cs" />
      <Compile Include="Assets\Scripts\CharacterVisualObjectBehaviour.cs" />
      <Compile Include="Assets\Scripts\IAppleSignInProvider.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ChipType.cs" />
      <Compile Include="Assets\Scripts\LivesPriceConfig.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\RewardedVideoAd.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\IExpression.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\MinFunction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Threshold.cs" />
@@ -509,17 +537,14 @@
      <Compile Include="Assets\Scripts\Expressive\ExpressiveOptions.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SnowCover.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Conditional\NullCoalescingOperator.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\MeshHelper.cs" />
      <Compile Include="Assets\Scripts\GGMarkIslands.cs" />
      <Compile Include="Assets\Scripts\PlayerInputFollower.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialog.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceMediationSettings.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddMinutesFunction.cs" />
      <Compile Include="Assets\Scripts\ChangeAnimationArguments.cs" />
      <Compile Include="Assets\Scripts\LevelEditorBurriedElement.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Gif.cs" />
      <Compile Include="Assets\Scripts\PartTemplate.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\ICollisionHandler.cs" />
-     <Compile Include="Assets\MessageUtility\ErrorDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\RoundFunction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_HSV.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Relational\GreaterThanOrEqualOperator.cs" />
@@ -531,22 +556,24 @@
      <Compile Include="Assets\Scripts\_2dxFX_Cartoon.cs" />
      <Compile Include="Assets\Scripts\GGSupportMenuAndroid.cs" />
      <Compile Include="Assets\Scripts\EnergyManager.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltSegmentGroup.cs" />
      <Compile Include="Assets\Scripts\DistortedImageRenderer.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogSmallPrefab.cs" />
      <Compile Include="Assets\Scripts\GGCloth\PointPositionConstraint.cs" />
      <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\GameTapToContinueContainer.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPrefabScript.cs" />
      <Compile Include="Assets\Scripts\VariationButton.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Additive\PlusOperator.cs" />
      <Compile Include="Assets\Scripts\AnimationBeats.cs" />
      <Compile Include="Assets\Scripts\PreGameDialogBoosterPrefab.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPathScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Distortion_Additive.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningQualityMaximum.cs" />
      <Compile Include="Assets\Scripts\PowerupsDB.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_PlasmaShield.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningThreadState.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_EdgeColor.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\WaitForSecondsLightning.cs" />
      <Compile Include="Assets\Scripts\GGOptimize\NamedProperty.cs" />
      <Compile Include="Assets\Scripts\RangeOfIntegers.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyBoxAction.cs" />
@@ -555,20 +582,22 @@
      <Compile Include="Assets\Scripts\TestObjectActivator.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\StartsWithFunction.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogMultyPrefab.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\SdkVersion.cs" />
      <Compile Include="Assets\Scripts\ExperimentsScreen.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BoardAction.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptMoveRandomly.cs" />
      <Compile Include="Assets\Scripts\WellDoneContainer.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoPathScript.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\InAppPurchase\IAPSettings.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\GGOptimize\Experiment.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Distortion.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_SkyCloud.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\FunctionExpression.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoBallAffector.cs" />
-     <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_NewTeleportation2.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Fire.cs" />
      <Compile Include="Assets\Scripts\SlotColorSlateBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\SpecialGeneratorBehaviour.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Statistical\MedianFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Matches.cs" />
@@ -576,12 +605,13 @@
      <Compile Include="Assets\Scripts\GameStats.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\GGMath.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseTimer.cs" />
      <Compile Include="Assets\Scripts\GGUID.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TilesSlotsProvider.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPrefabScriptBase.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\SqrtFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Exceptions\MissingTokenException.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PlasmaRainbow_Color.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\InAppPurchase\IAPProduct.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Noise.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotComponentBehavoiour.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\FlyLineRocketAction.cs" />
@@ -591,25 +621,27 @@
      <Compile Include="Assets\Scripts\GGMatch3\HeuristicAIPlayer.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SwapToMatchAction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_JellyAutoMove.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Common\AndroidUtil.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BorderTilemap.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_SandFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_GrassFX.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningLightsabreScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PowerupActivations.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Jelly.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\EndsWithFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ConveyorBeltSegment.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Twist.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\PopulateBoard.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ChipDisplaySettings.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeUI\MobileNativeAlert.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddSecondsFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TiledSpriteRenderer.cs" />
      <Compile Include="Assets\Scripts\FXAA.cs" />
-     <Compile Include="Assets\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\PopulateBoard.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotComponent.cs" />
+     <Compile Include="Assets\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\PowerLineAffector.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CombineChipAffectors.cs" />
      <Compile Include="Assets\Scripts\CameraLookAt.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningFieldScript.cs" />
      <Compile Include="Assets\Scripts\TasksButton.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\ContainsFunction.cs" />
      <Compile Include="Assets\Scripts\CarNut.cs" />
@@ -619,119 +651,130 @@
      <Compile Include="Assets\Scripts\GGMatch3\CreatePowerupAction.cs" />
      <Compile Include="Assets\Scripts\RoomCharacterScene.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_DestroyedFX.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltShapeConeScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Hologram.cs" />
      <Compile Include="Assets\Scripts\GGPaintableTexture.cs" />
      <Compile Include="Assets\Scripts\DrillModel.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPathScript.cs" />
      <Compile Include="Assets\Scripts\CarSprayTool.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformDelegate.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\Benchmark01.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseException.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\IClipPlayer.cs" />
      <Compile Include="Assets\Scripts\PreGameDialogGoalsPrefab.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningWhipSpell.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AudienceNetworkAds.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\CeilingFunction.cs" />
      <Compile Include="Assets\Scripts\GGRequestLimitter.cs" />
      <Compile Include="Assets\Scripts\FacebookAndroidPlugin.cs" />
      <Compile Include="Assets\Scripts\StarConsumeAnimation.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltQualitySetting.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SetLock.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\NavigationManager.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
      <Compile Include="Assets\Scripts\GiftBoxScreenGiftItem.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGeneratorPath.cs" />
-     <Compile Include="Assets\Scripts\InGameSettingsScreen.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Pixel8bitsBW.cs" />
+     <Compile Include="Assets\Scripts\InGameSettingsScreen.cs" />
      <Compile Include="Assets\Scripts\EnumeratorsList.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Conversion\StringFunction.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\CurrencyDisplay.cs" />
      <Compile Include="Assets\Scripts\BuyMovesPricesConfig.cs" />
      <Compile Include="Assets\Scripts\OutOfMovesDialogPowerup.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGenerator.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScript2D.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\SinFunction.cs" />
      <Compile Include="Assets\Scripts\FloatRange.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyMatchingIslandAction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ChipPhysics.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Common.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Normal.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogNextButton.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGizmoScript.cs" />
      <Compile Include="Assets\Scripts\ClothDemo.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPathScriptBase.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\WinScreenBoardInAnimation.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptTriggerPath.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogEconomyPrefab.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Slim.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Offset.cs" />
      <Compile Include="Assets\Scripts\GrowingElementPot.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SwipeAffector.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_Waterfall.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_WaterAndBackgroundDeluxe.cs" />
      <Compile Include="Assets\Scripts\PaintTransformation.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_Waterfall.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ActionManager.cs" />
      <Compile Include="Assets\Scripts\DragButton.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\WinScreenBoardOutAnimation.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_NoiseAnimated.cs" />
      <Compile Include="Assets\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_FlameAdditive.cs" />
+     <Compile Include="Assets\EasyMobile\Generated\EM_IAPConstants.cs" />
      <Compile Include="Assets\Scripts\AWSFirehoseAnalytics.cs" />
      <Compile Include="Assets\Scripts\Match3ParticleSystem.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningCustomTransformDelegate.cs" />
      <Compile Include="Assets\Scripts\GGGraphics.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\ClipPlayerUI.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeShare\Platforms\AndroidNativeShare.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SuggestMoveType.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\ThunderAndLightningScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LightSlotComponent.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Teleportation.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\GifExportTask.cs" />
      <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ShowPotentialMatchAction.cs" />
      <Compile Include="Assets\Scripts\IntVector2.cs" />
      <Compile Include="Assets\Scripts\OwnedItems.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Scripts\PowerupType.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Bitwise\RightShiftOperator.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Shiny_Reflect.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddMonthsFunction.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />
      <Compile Include="Assets\Scripts\RandomRotateOnEnable.cs" />
      <Compile Include="Assets\Scripts\SelectRoomScreenButton.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptReloadSceneEsc.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CarpetSpread.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Flame.cs" />
      <Compile Include="Assets\Scripts\CarConfirmPurchase.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Giphy\Giphy.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\PathGenerator.cs" />
      <Compile Include="Assets\Scripts\FBLoginResponse.cs" />
      <Compile Include="Assets\Scripts\GGServerMessages.cs" />
      <Compile Include="Assets\Scripts\GGPaintableShader.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\AnimateCarryPiece.cs" />
      <Compile Include="Assets\Scripts\PurchaseLayer.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Advertising\AdSettings.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Relational\LessThanOrEqualOperator.cs" />
      <Compile Include="Assets\Scripts\LoginProvider.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_JellyAutoMove.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptManualAutomatic.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_GrassMultiFX.cs" />
      <Compile Include="Assets\Scripts\BehaviourSingleton.cs" />
-     <Compile Include="Assets\AnalyticsManager.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningParticleSpellScript.cs" />
      <Compile Include="Assets\Scripts\SquareClothRenderer.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Clipping.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GeneralSettings.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_ColorChange.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GoalConfig.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_ColorChange.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Conversion\IntegerFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GoalsDefinition.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\MobileNativeUI\MobileNativeUI.cs" />
      <Compile Include="Assets\Scripts\InitClass.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningWhipScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Exceptions\MissingParticipantException.cs" />
      <Compile Include="Assets\Scripts\NGUIJson.cs" />
      <Compile Include="Assets\Scripts\ResizeSpriteToFitScreen.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Pixel.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScript.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptPrefabTutorial.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptRotate.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_StoneFX.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\VertexZoom.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Ghost.cs" />
      <Compile Include="Assets\Scripts\ShuffleContainer.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PlasmaShield.cs" />
      <Compile Include="Assets\Scripts\GGPlayerSettings.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Utilities\RatingRequest\Platforms\iOSNativeUtility.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Giphy\GiphyUploadParams.cs" />
      <Compile Include="Assets\Scripts\Expressive\ExtensionMethods.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PixelDie.cs" />
      <Compile Include="Assets\Scripts\Match3Particles.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\HourOfFunction.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningThreadState.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Banner\AdViewScene.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BoardRepresentation.cs" />
      <Compile Include="Assets\Scripts\CarVariationPanel.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BoardComponent.cs" />
@@ -739,12 +782,12 @@
      <Compile Include="Assets\Scripts\_2dxFX_Noise.cs" />
      <Compile Include="Assets\Scripts\DecorateRoomScreen.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Pattern.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltShapeSphereScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_FireAdditive.cs" />
      <Compile Include="Assets\Scripts\FlyingSaucerBehaviour.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptReloadSceneEsc.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Island.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Common.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Lock.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Smoke.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyChipActionExplosion.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\Benchmark03.cs" />
@@ -760,7 +803,6 @@
      <Compile Include="Assets\Scripts\Expressive\Helpers\Numbers.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_DestroyedFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Liquid.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptRotate.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SeekingMissileBehaviour.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Flame.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Bitwise\BitwiseOrOperator.cs" />
@@ -768,12 +810,14 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_GrassFX.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\VertexShakeB.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyFromGravityAction.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\GameService\GameServiceItem.cs" />
      <Compile Include="Assets\Scripts\ScrollableSelectCarScreen.cs" />
      <Compile Include="Assets\Scripts\TalkingDialog.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Logic\NotOperator.cs" />
      <Compile Include="Assets\Scripts\CarCamera.cs" />
      <Compile Include="Assets\Scripts\SpawnEffect.cs" />
      <Compile Include="Assets\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltTransformTrackerScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoChipCombineWithPowerupAffector.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Blood.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_ColorRGB.cs" />
@@ -781,7 +825,6 @@
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\IEEERemainderFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ShowSwapNotPossibleAction.cs" />
      <Compile Include="Assets\Scripts\TMPro\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\FacebookManager.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\HammerHitAction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_PixelDie.cs" />
      <Compile Include="Assets\Scripts\GGCloth\MultiPointAttachConstraint.cs" />
@@ -790,34 +833,33 @@
      <Compile Include="Assets\Scripts\Gravity.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Logic\OrOperator.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Blur.cs" />
-     <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
-     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseTimer.cs" />
      <Compile Include="Assets\Scripts\RocketDemo.cs" />
      <Compile Include="Assets\Scripts\GGFacebook.cs" />
      <Compile Include="Assets\Scripts\GiftBoxScreen.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogBigPrefab.cs" />
-     <Compile Include="Assets\Scripts\Match3Game.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Bitwise\BitwiseXOrOperator.cs" />
+     <Compile Include="Assets\Scripts\Match3Game.cs" />
      <Compile Include="Assets\Scripts\EnergyControlConfig.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Pixel8bitsGB.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\UnaryExpression.cs" />
      <Compile Include="Assets\Scripts\CurrencyShowButton.cs" />
      <Compile Include="Assets\Scripts\PlacePowerupAction.cs" />
      <Compile Include="Assets\Scripts\StageSelectionScreen.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClient.cs" />
+     <Compile Include="Assets\AnalyticsManager.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Negative.cs" />
      <Compile Include="Assets\Scripts\FBLoginParams.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\RewardedVideo\RewardedVideoAdScene.cs" />
      <Compile Include="Assets\Scripts\TutorialHandController.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoMeshScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_IcedFX.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\ObjectSpin.cs" />
      <Compile Include="Assets\Scripts\DragTarget.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\IceBlocker.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltTransformTrackerScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Multiplicative\ModulusOperator.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\BinaryExpressionType.cs" />
      <Compile Include="Assets\Scripts\MagicHatBehaviour.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Heat.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningFieldScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CompositeAffector.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseTab.cs" />
      <Compile Include="Assets\Scripts\PlayerInventory.cs" />
@@ -828,28 +870,29 @@
      <Compile Include="Assets\Scripts\Expressive\Exceptions\FunctionNameAlreadyRegisteredException.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TransformBehaviour.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_WoodFX.cs" />
+     <Compile Include="Assets\Scripts\UnityPurchasing\generated\AppleStoreKitTestTangle.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoBallDestroyAction.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\NeuQuant.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Grouping\ParenthesisCloseOperator.cs" />
      <Compile Include="Assets\Scripts\LoadingPanel.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningQualityMaximum.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoScriptMoveRandomly.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\BaseScene.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddYearsFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Token.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningLightParameters.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\PadRightFunction.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
      <Compile Include="Assets\Scripts\LivesCountDisplay.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\GameService\GameServiceManager.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TeleType.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MillisecondsBetweenFunction.cs" />
      <Compile Include="Assets\Scripts\GGFetchTextureIncremental.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PlasmaRainbow.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningMeshSurfaceScript.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\ReflectionUtils.cs" />
      <Compile Include="Assets\Scripts\GrowingElementBehaviour.cs" />
      <Compile Include="Assets\Scripts\BPCEMVisualisation.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ExtraFallingElements.cs" />
      <Compile Include="Assets\Scripts\BurriedElementBehaviour.cs" />
-     <Compile Include="Assets\Scripts\EZCameraShake\CameraUtilities.cs" />
      <Compile Include="Assets\Scripts\LineChipAffector.cs" />
+     <Compile Include="Assets\Scripts\EZCameraShake\CameraUtilities.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\LengthFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MinutesBetweenFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\SumFunction.cs" />
@@ -862,12 +905,15 @@
      <Compile Include="Assets\Scripts\starFxController.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Color.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyChipActionGrow.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\ClipPlayerScaleMode.cs" />
      <Compile Include="Assets\Scripts\GGRequestCache.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Outline.cs" />
      <Compile Include="Assets\Scripts\GGPaintableMesh.cs" />
      <Compile Include="Assets\Scripts\WalletManager.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\LightningBoltSegment.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Tuple.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningParticleCollisionForwarder.cs" />
      <Compile Include="Assets\Scripts\GGFileIO.cs" />
      <Compile Include="Assets\Scripts\CharacterVisualSprite.cs" />
      <Compile Include="Assets\Scripts\CacheGetStrategy.cs" />
@@ -883,16 +929,18 @@
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GravitySettings.cs" />
      <Compile Include="Assets\Scripts\CarSettings.cs" />
-     <Compile Include="Assets\Scripts\BombChipAffector.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Sharpen.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_LightningBolt.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\LzwEncoder.cs" />
+     <Compile Include="Assets\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Blood.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\BoltCollection.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3Goals.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltParameters.cs" />
+     <Compile Include="Assets\Scripts\BombChipAffector.cs" />
      <Compile Include="Assets\Scripts\GGSupportMenu.cs" />
      <Compile Include="Assets\Scripts\GameCompleteParams.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_EdgeColor.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
      <Compile Include="Assets\Scripts\CurrencyPanel.cs" />
      <Compile Include="Assets\Scripts\PluginCallbackManager.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\SignFunction.cs" />
@@ -900,18 +948,18 @@
      <Compile Include="Assets\Scripts\PowerupsPanelPowerup.cs" />
      <Compile Include="Assets\Scripts\WellDoneScreen.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LevelEditorVisualizer.cs" />
-     <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
      <Compile Include="Assets\Scripts\GGInAppPurchase.cs" />
      <Compile Include="Assets\Scripts\EZCameraShake\CameraShakeState.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Utilities\RatingRequest\MobileNativeRatingRequest.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PatternAdditive.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\DayOfFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddDaysFunction.cs" />
      <Compile Include="Assets\Scripts\MonsterElementBehaviour.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdSettings.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MovingElement.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CrossExplosionAction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Hologram3.cs" />
      <Compile Include="Assets\Scripts\InventoryDB.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBolt.cs" />
      <Compile Include="Assets\Scripts\UpdateParams.cs" />
      <Compile Include="Assets\Scripts\_2DC_ShaderLerpDemo.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\EmptyConveyorSpace.cs" />
@@ -922,47 +970,53 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_Mystic_Distortion.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\AbsFunction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Slim.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Platforms\iOSNativeGif.cs" />
      <Compile Include="Assets\Scripts\GGGameName.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\OperatorPrecedence.cs" />
      <Compile Include="Assets\Scripts\RatingScreen.cs" />
      <Compile Include="Assets\Scripts\WinScreenAnimation.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_PlasmaRainbow.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoMeshScript.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\VertexJitter.cs" />
      <Compile Include="Assets\Scripts\DecorateRoomSceneVisualItem.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyChipAction.cs" />
-     <Compile Include="Assets\MessageUtility\MessageUtility.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Platforms\AndroidNativeGif.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Statistical\AverageFunction.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3StagesDB.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Mystic_Distortion.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotLightBehaviour.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Advertising\BannerAdPosition.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MinuteOfFunction.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Settings\SettingsScene.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\BinaryExpression.cs" />
      <Compile Include="Assets\Scripts\ShowTutorialMaskAction.cs" />
      <Compile Include="Assets\Scripts\CameraSetups.cs" />
-     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\PathGenerator.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\DemoPathScript.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TeleporterAnimation.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Conversion\LongFunction.cs" />
-     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
      <Compile Include="Assets\Scripts\BuyButton.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningSplineScript.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\FunctionBase.cs" />
      <Compile Include="Assets\Scripts\GGSetSortingLayer.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\FloorFunction.cs" />
      <Compile Include="Assets\Scripts\GGMessageHandlerConfig.cs" />
      <Compile Include="Assets\Scripts\ItemColor.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\GifFrame.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_4Gradients.cs" />
+     <Compile Include="Assets\FacebookManager.cs" />
      <Compile Include="Assets\Scripts\GGCountCommand.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Sepia.cs" />
+     <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningWhipSpell.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogPowerupVisualConfig.cs" />
-     <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseButton.cs" />
      <Compile Include="Assets\Scripts\CarModelSubpart.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Negative.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SwapChipsAction.cs" />
      <Compile Include="Assets\Scripts\CarPartInfo.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Pixel8bitsC64.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdUtility.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Blur.cs" />
+     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelper.cs" />
      <Compile Include="Assets\Scripts\LoginToFBButton.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotColorSlate.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Frozen.cs" />
@@ -971,7 +1025,7 @@
      <Compile Include="Assets\Scripts\GGMatch3\AnimateGrowingElementOnChip.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyAfterAction.cs" />
      <Compile Include="Assets\Scripts\CarScene.cs" />
-     <Compile Include="Assets\Scripts\GGUIDPrivate.cs" />
+     <None Include="Assets\FacebookSDK\link.xml" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Pixel8bitsBW.shader" />
      <None Include="Assets\Shaders\2DxFX_Extra_Shaders_AlphaIntensity.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -997,7 +1051,6 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GrassFX.shader" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Count.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Noise.shader" />
-     <None Include="Assets\FacebookSDK\link.xml" />
      <None Include="Assets\Resources\shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Heat.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrassMultiFX.shader" />
@@ -1005,8 +1058,8 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Frozen.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Liquify.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\RestClient\Packages\Proyecto26.RestClient\package.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Clipping.shader" />
+     <None Include="Assets\ProceduralLightning\ChangeLog.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_BlurHQX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Color.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Offset.shader" />
@@ -1014,11 +1067,10 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_CircleFade.shader" />
      <None Include="Assets\Shaders\Legacy Shaders_Particles_Alpha Blended Premultiply.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Frozen.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.common\package.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Sharpen.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Slim.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PlasmaShield.shader" />
-     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
-     <None Include="Assets\IronSource\Plugins\iOS\iOSBridge.m" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Twist.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_4Gradients.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_StoneFX.shader" />
@@ -1033,6 +1085,7 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Sepia.shader" />
      <None Include="Assets\Resources\awsconfig.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Hologram2.shader" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-firestore-unity\maven-metadata.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Blood.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Hologram.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Flame.shader" />
@@ -1046,6 +1099,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Blur.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_StoneFX.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_LightningBolt.shader" />
+     <None Include="Assets\EasyMobile\link.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Waterfall.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_IcedFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_NoiseAnimated.shader" />
@@ -1053,34 +1107,39 @@
      <None Include="Assets\Resources\shaders\TMPro.cginc" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Lightning.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Pixel8bitsBW.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.android.appbundle\package.json" />
      <None Include="Assets\Shaders\Mobile_Particles_Alpha Blended.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_BlackHole.shader" />
+     <None Include="Assets\GoogleMobileAds\link.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.core\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Negative.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Cartoon.shader" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Sphere.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_HSV.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_EdgeColor.shader" />
-     <None Include="Assets\IronSource\Plugins\iOS\IronSourceUnityConfig.m" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Clear.shader" />
      <None Include="Assets\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Posterize.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PatternAdditive.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_EdgeColor.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_BurningFX.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\Proguard\integrity.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Sharpen.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Proguard\common.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GoldFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Jelly.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrassFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Outline.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Shiny_Reflect.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\AdditiveSoftTintableShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\google-services.json" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMesh.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Pixel8bitsGB.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_CompressionFX.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_WaterAndBackground.shader" />
-     <None Include="Assets\google-services.json" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Shaders\2DxFX_Extra_Shaders_ColorOnly.shader" />
@@ -1099,6 +1158,7 @@
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Shaders\2DxFX_Extra_Shaders_ShinyFX.shader" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Distortion_Additive.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Pixel.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_LightningBolt.shader" />
@@ -1106,16 +1166,19 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_WoodFX.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_NewTeleportation.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Fire.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GoldFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_ColorChange.shader" />
+     <None Include="Assets\EasyMobile\Scripts\Gif\Moments\Moments_License.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Ice.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningShader.cginc" />
-     <None Include="Assets\IronSource\Plugins\Android\IronSource.plugin\AndroidManifest.xml" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Blood.shader" />
+     <None Include="Assets\EasyMobile\GUISkins\Fonts\License\ubuntu-font-licence-1.0.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_DestroyedFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Pixel.shader" />
+     <None Include="Assets\EasyMobile\GUISkins\Fonts\License\LICENSE-2.0.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Cartoon.shader" />
      <None Include="Assets\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Shaders\Custom_LightningBoltShaderMesh_d1.shader" />
@@ -1123,6 +1186,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_BurnFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_PlasmaShield.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\DarkCloudShader.shader" />
+     <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-7.1.0_manifest.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_ColorRGB.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Slim.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Ice.shader" />
@@ -1132,21 +1196,23 @@
      <None Include="Assets\Shaders\Legacy Shaders_Particles_Alpha Blended.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Hologram3.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_CompressionFX.shader" />
+     <None Include="Assets\EasyMobile\EasyMobileSettings.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_NoiseAnimated.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Offset.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_IcedFX.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrayScale.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_DestroyedFX.shader" />
+     <None Include="Assets\EasyMobile\GUISkins\Fonts\License\OFL.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_NewTeleportation2.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_FlameAdditive.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Mystic_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_ColorRGB.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMeshNoGlow.shader" />
+     <None Include="Assets\Resources\BillingMode.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Liquid.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PixelDie.shader" />
-     <None Include="Assets\IronSource\Plugins\iOS\iOSBridge.h" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Teleportation.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Smoke.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Liquid.shader" />
@@ -1156,11 +1222,14 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Pixel8bitsC64.shader" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-crashlytics-unity\maven-metadata.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Posterize.shader" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
      <None Include="Assets\Shaders\GGMatch3_TileShader.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GrassMultiFX.shader" />
+     <None Include="Assets\RestClient\Packages\Proyecto26.RestClient\package.json" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_MetalFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Ghost.shader" />
+     <None Include="Assets\Firebase\Plugins\Crashlytics\link.xml" />
      <None Include="Assets\Shaders\2DxFX_Extra_Shaders_ColorHSV.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Heat.shader" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_MarkIslands.shader" />
@@ -1184,694 +1253,779 @@
      <None Include="Assets\Shaders\Particles_Alpha Blended Overlayed.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GoldenFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Hologram3.shader" />
-     <None Include="Assets\Firebase\Plugins\Crashlytics\link.xml" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_DesintegrationFX.shader" />
      <Reference Include="UnityEngine">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ARModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AndroidJNIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AnimationModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AssetBundleModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CrashReportingModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DSPGraphModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DirectorModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GameCenterModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GridModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.HotReloadModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.IMGUIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ImageConversionModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputLegacyModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.JSONSerializeModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PerformanceReportingModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PhysicsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Physics2DModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ProfilerModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ScreenCaptureModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SharedInternalsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteMaskModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteShapeModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.StreamingModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubstanceModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubsystemsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TLSModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainPhysicsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextRenderingModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TilemapModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsNativeModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UNETModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UmbraModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityConnectModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityCurlModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityTestProtocolModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VFXModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VRModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VehiclesModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XRModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.CoreModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.GraphViewModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.PackageManagerUIModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SceneTemplateModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsSamplesModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIServiceModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
-     <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Crashlytics">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Firebase.Crashlytics.dll</HintPath>
-     </Reference>
-     <Reference Include="Facebook.Unity.Gameroom">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Crashlytics.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.SecurityToken">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/AWSSDK.SecurityToken.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.SecurityToken.dll</HintPath>
      </Reference>
      <Reference Include="Mono.Data.Sqlite">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Common">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
      </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>D:/ITSoft/HomeDesign/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     <Reference Include="GoogleMobileAds.iOS">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll</HintPath>
      </Reference>
-     <Reference Include="FacebookNamedPipeClient">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+     <Reference Include="Firebase.Firestore">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
      </Reference>
-     <Reference Include="protobuf-net">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/protobuf-net.dll</HintPath>
+     <Reference Include="Firebase.Database">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
      </Reference>
-     <Reference Include="Firebase.Analytics">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
-     </Reference>
-     <Reference Include="Facebook.Unity.Settings">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+     <Reference Include="Facebook.Unity.Gameroom">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
      </Reference>
      <Reference Include="ProtoSerializer">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/ProtoSerializer.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/ProtoSerializer.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Tasks">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
-     </Reference>
-     <Reference Include="AWSSDK.Core">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/AWSSDK.Core.dll</HintPath>
+     <Reference Include="FacebookNamedPipeClient">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.TaskExtension">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.KinesisFirehose">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/AWSSDK.KinesisFirehose.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.KinesisFirehose.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.CognitoIdentity">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/AWSSDK.CognitoIdentity.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.CognitoIdentity.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:/ITSoft/HomeDesign/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="Firebase.Platform">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+     <Reference Include="Facebook.Unity.Settings">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
      </Reference>
-     <Reference Include="Google.MiniJson">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
-     </Reference>
-     <Reference Include="ProtoModels">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/ProtoModels.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Compat">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
-     </Reference>
-     <Reference Include="Facebook.Unity">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+     <Reference Include="Facebook.Unity.Android">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.MobileAnalytics">
-     <HintPath>D:/ITSoft/HomeDesign/Assets/Plugins/AWSSDK.MobileAnalytics.dll</HintPath>
+     <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.MobileAnalytics.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Android">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Android.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Unity">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
+     </Reference>
+     <Reference Include="Facebook.Unity">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="protobuf-net">
+     <HintPath>D:/HomeDesign/Assets/Plugins/protobuf-net.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Analytics">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Core">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="AWSSDK.Core">
+     <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.MiniJson">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Tasks">
+     <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+     </Reference>
+     <Reference Include="ProtoModels">
+     <HintPath>D:/HomeDesign/Assets/Plugins/ProtoModels.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Compat">
+     <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Auth">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-     <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Common">
-     <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="System">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
      </Reference>
      <Reference Include="System.Core">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Linq">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics.Vectors">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Http">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.CSharp">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
      </Reference>
      <Reference Include="System.Data">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Win32.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
      </Reference>
      <Reference Include="System.AppContext">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Concurrent">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.NonGeneric">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Specialized">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Annotations">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.EventBasedAsync">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.TypeConverter">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
      </Reference>
      <Reference Include="System.Console">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
      </Reference>
      <Reference Include="System.Data.Common">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Contracts">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Debug">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.FileVersionInfo">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Process">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.StackTrace">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TextWriterTraceListener">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Tools">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TraceSource">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
      </Reference>
      <Reference Include="System.Drawing.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Dynamic.Runtime">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Calendars">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Extensions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression.ZipFile">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
      </Reference>
      <Reference Include="System.IO">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.DriveInfo">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Watcher">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.IsolatedStorage">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.MemoryMappedFiles">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Pipes">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.UnmanagedMemoryStream">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Expressions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Parallel">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Queryable">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Http.Rtc">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NameResolution">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NetworkInformation">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Ping">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Requests">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Security">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Sockets">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebHeaderCollection">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets.Client">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
      </Reference>
      <Reference Include="System.ObjectModel">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.ILGeneration">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.Lightweight">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Extensions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Reader">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.ResourceManager">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Writer">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.VisualC">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Extensions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Handles">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Numerics">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Formatters">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Json">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Xml">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Claims">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Algorithms">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Csp">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Encoding">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.X509Certificates">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Principal">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.SecureString">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Duplex">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Http">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.NetTcp">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Primitives">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Security">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding.Extensions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.RegularExpressions">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Overlapped">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks.Parallel">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Thread">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.ThreadPool">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Timer">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
      </Reference>
      <Reference Include="System.ValueTuple">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.ReaderWriter">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XDocument">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlDocument">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlSerializer">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath.XDocument">
-     <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+     <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Purchasing.Common">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Purchasing">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Purchasing.SecurityStub">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="VSSettingsProvider">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Analytics">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Services.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Analytics.Editor">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:/ITSoft/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Analytics">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Purchasing.SecurityCore">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Purchasing.Codeless">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Environments">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Purchasing.Stores">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.Purchasing">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:/HomeDesign/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{54510933-4d6f-6bbf-da4d-775bc64656c7}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Integrity.csproj">
+      <Project>{140f3392-ce8c-8460-7c4e-d8305849550f}</Project>
+      <Name>Google.Play.Integrity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
+      <Project>{5dbca5f2-6110-1d38-bac2-ebef823594e9}</Project>
+      <Name>Google.Android.AppBundle.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Core.csproj">
+      <Project>{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}</Project>
+      <Name>Google.Play.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Common.csproj">
+      <Project>{2876832c-a9a9-9349-9cea-70f93ad17827}</Project>
+      <Name>Google.Play.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

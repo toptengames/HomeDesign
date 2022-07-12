@@ -8,6 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 
 public class DecorateRoomScreen : UILayer, Match3GameListener
 {
@@ -912,7 +913,6 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			ScrollableSelectRoomScreen.ChangeRoomArguments changeRoomArguments = new ScrollableSelectRoomScreen.ChangeRoomArguments();
 			changeRoomArguments.passedRoom = loadedRoom;
 			changeRoomArguments.unlockedRoom = ScriptableObjectSingleton<RoomsDB>.instance.NextRoom(loadedRoom);
-			changeRoomArguments.unlockedRoom.isPassed = true;
 			nav.GetObject<ScrollableSelectRoomScreen>().Show(changeRoomArguments);
 		}
 
@@ -932,6 +932,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		internal void _003COnGameComplete_003Eb__0()
 		{
 			GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.coins, (int)winScreenArguments.coinsWon);
+			GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.coins, 50);
 			winScreen.Show(winScreenArguments);
 			GGSoundSystem.Play(GGSoundSystem.MusicType.MainMenuMusic);
 		}
@@ -954,6 +955,8 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		}
 	}
 
+	[SerializeField] private RoomProgressBar roomProgressBar;
+	
 	[SerializeField]
 	private List<Transform> levelDifficultyWidgets = new List<Transform>();
 
@@ -1131,6 +1134,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 	{
 		Init();
 		accelerometer.Init();
+
 	}
 
 	private void OnDisable()
@@ -1178,12 +1182,15 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			roomLoadedStyle.Apply();
 			InitScene(scene, isFirstTime: true);
 			InAppBackend instance = BehaviourSingletonInit<InAppBackend>.instance;
+			roomProgressBar.InitProgressbar(scene.GetRoomProgressState().progress);
 		}
 		else
 		{
 			RoomsDB.Room room = ScriptableObjectSingleton<RoomsDB>.instance.ActiveRoom;
 			LoadScene(room);
 		}
+		
+
 	}
 
 	private void LoadScene(RoomsDB.Room room)
@@ -1511,6 +1518,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		InitScene(scene, isFirstTime: false);
 	}
 
+	[ContextMenu("Complete room")]
 	private void OnCompleteRoom()
 	{
 		_003C_003Ec__DisplayClass69_0 _003C_003Ec__DisplayClass69_ = new _003C_003Ec__DisplayClass69_0();
@@ -1602,6 +1610,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		}
 		if (updateEnumerator != null && !updateEnumerator.MoveNext())
 		{
+			roomProgressBar.InitProgressbar(scene.GetRoomProgressState().progress);
 			updateEnumerator = null;
 		}
 		if (animationEnumerator != null && !animationEnumerator.MoveNext())

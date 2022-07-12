@@ -1,69 +1,112 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GoogleMobileAds.Api;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
 namespace ITSoft {
     public class AdsManager : MonoBehaviour
     {
+        [SerializeField] private string interId;
+        [SerializeField] private string rewardedId;
         public static Action OnCompleteRewardVideo;
         public static Action OnCompleteInterVideo;
 
+        private InterstitialAd interstitialAd;
+        private RewardedAd rewardedAd;
+        
         private static bool removeAds = false;
+
+        private static AdsManager instance;
         
         private void Awake()
         {
+#if UNITY_EDITOR
+            GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.coins, -(int)GGPlayerSettings.instance.walletManager.CurrencyCount(CurrencyType.coins));   
+#endif
+            instance = this;
             DontDestroyOnLoad(this.gameObject);
-        }
-
-        private void Start()
-        {
+            
             bool.TryParse(PlayerPrefs.GetString("addfreechk", "false"), out removeAds);
 
-            InitIronSDK();
+            Init();
             LoadInterstitial();
         }
 
         private void OnEnable()
         {
-            IronSourceEvents.onRewardedVideoAdRewardedEvent += RewardedVideoAdRewardedEvent;
-            IronSourceEvents.onRewardedVideoAdShowFailedEvent += ErrorShowingReward;
-            IronSourceEvents.onInterstitialAdClosedEvent += LoadInterstitial;
-            IronSourceEvents.onInterstitialAdClosedEvent += InterVideoAdRewardedEvent;
-            IronSourceEvents.onInterstitialAdLoadFailedEvent += LoadInterstitial;
+            interstitialAd.OnAdFailedToLoad += LoadInterstitial;
+            interstitialAd.OnAdClosed += LoadInterstitial;
+            interstitialAd.OnAdClosed += InterVideoAdRewardedEvent;
+            rewardedAd.OnUserEarnedReward += RewardedVideoAdRewardedEvent;
+            rewardedAd.OnAdFailedToShow += ErrorShowingReward;
+            rewardedAd.OnAdClosed += ErrorShowingReward;
+        }
+
+        private void ErrorShowingReward(object sender, EventArgs e)
+        {
+            CreateAndLoadRewardAd();
+        }
+
+        private void LoadInterstitial(object sender, EventArgs e)
+        {
+            CreateAndLoadInterAd();
+        }
+
+        private void LoadInterstitial(object sender, AdFailedToLoadEventArgs e)
+        {
+            CreateAndLoadInterAd();
+        }
+        
+        private void LoadInterstitial()
+        {
+            CreateAndLoadInterAd();
         }
 
         private void OnDisable()
         {
-            IronSourceEvents.onRewardedVideoAdRewardedEvent -= RewardedVideoAdRewardedEvent;
-            IronSourceEvents.onRewardedVideoAdShowFailedEvent -= ErrorShowingReward;
-            IronSourceEvents.onInterstitialAdClosedEvent -= LoadInterstitial;
-            IronSourceEvents.onInterstitialAdClosedEvent -= InterVideoAdRewardedEvent;
-            IronSourceEvents.onInterstitialAdLoadFailedEvent -= LoadInterstitial;
+            interstitialAd.OnAdFailedToLoad -= LoadInterstitial;
+            interstitialAd.OnAdClosed -= LoadInterstitial;
+            interstitialAd.OnAdClosed -= InterVideoAdRewardedEvent;
+            rewardedAd.OnUserEarnedReward -= RewardedVideoAdRewardedEvent;
+            rewardedAd.OnAdFailedToShow -= ErrorShowingReward;
+            rewardedAd.OnAdClosed -= ErrorShowingReward;
         }
 
-        private void InitIronSDK()
+        private void Init()
         {
-#if UNITY_ANDROID
-            // string appKey = "85460dcd";
-            string appKey = "12ce2b3f5";
-#elif UNITY_IPHONE
-        string appKey = "8545d445";
-#else
-        string appKey = "unexpected_platform";
-#endif
-            IronSource.Agent.validateIntegration();
-            IronSource.Agent.init(appKey);
+            MobileAds.Initialize(initStatus => { });
+
+            CreateAndLoadInterAd();
+            CreateAndLoadRewardAd();
+            //IronSource.Agent.validateIntegration();
+            //IronSource.Agent.init(appKey);
         }
 
-        void RewardedVideoAdRewardedEvent(IronSourcePlacement ssp)
+        private void CreateAndLoadInterAd()
         {
-            Debug.Log("unity-script: I got RewardedVideoAdRewardedEvent, amount = " + ssp.getRewardAmount() + " name = " + ssp.getRewardName());
+            interstitialAd = new InterstitialAd(interId);
+            var request = new AdRequest.Builder().Build();
+            interstitialAd.LoadAd(request);
+        }
+
+        private void CreateAndLoadRewardAd()
+        {
+            rewardedAd = new RewardedAd(rewardedId);
+            var request = new AdRequest.Builder().Build();
+            rewardedAd.LoadAd(request);
+        }
+        
+        void RewardedVideoAdRewardedEvent(object sender, Reward args)
+        {
+            //Debug.Log("unity-script: I got RewardedVideoAdRewardedEvent, amount = " + ssp.getRewardAmount() + " name = " + ssp.getRewardName());
             OnCompleteRewardVideo?.Invoke();
+            CreateAndLoadRewardAd();
         }
 
-        void InterVideoAdRewardedEvent()
+        void InterVideoAdRewardedEvent(object sender, EventArgs e)
         {
             OnCompleteInterVideo?.Invoke();
             OnCompleteInterVideo = null;
@@ -74,8 +117,8 @@ namespace ITSoft {
             removeAds = true;
         }
         
-        public static bool RewardIsReady() => IronSource.Agent.isRewardedVideoAvailable();
-        public static bool InterIsReady() => IronSource.Agent.isInterstitialReady();
+        public static bool RewardIsReady() => instance.rewardedAd.IsLoaded();
+        public static bool InterIsReady() => instance.interstitialAd.IsLoaded();
         
         public static void ShowRewarded()
         {
@@ -87,7 +130,8 @@ namespace ITSoft {
             // }
             if (RewardIsReady())
             {
-                IronSource.Agent.showRewardedVideo();
+                instance.rewardedAd.Show();
+                //IronSource.Agent.showRewardedVideo();
             }
             else
             {
@@ -98,25 +142,11 @@ namespace ITSoft {
             }
         }
 
-        private void ErrorShowingReward(IronSourceError error)
+        private void ErrorShowingReward(object sender, AdErrorEventArgs args)
         {
-            Debug.Log("Error to show reward! " + error.ToString());
+            CreateAndLoadRewardAd();
         }
         
-        public static void LoadInterstitial()
-        {
-            // if (BizzyBeeGames.IAPManager.Instance.IsProductPurchased("removeads"))
-            //     return;
-            Debug.Log("unity-script: IronSource.Agent.loadInterstitial - True");
-            IronSource.Agent.loadInterstitial();
-        }    
-        
-        public static void LoadInterstitial(IronSourceError error)
-        {
-            Debug.Log("unity-script: IronSource.Agent.loadInterstitial - " + error.getDescription());
-            IronSource.Agent.loadInterstitial();
-        }
-
         public static void ShowInterstitial(System.Action ViewComplete = null)
         {
             // if (BizzyBeeGames.IAPManager.Instance.IsProductPurchased("removeads"))
@@ -135,41 +165,14 @@ namespace ITSoft {
             {
                 Debug.Log("unity-script: IronSource.Agent.isInterstitialReady - True");
                 OnCompleteInterVideo = ViewComplete;
-                IronSource.Agent.showInterstitial();
+                instance.interstitialAd.Show();
             }
             else
             {
                 Debug.Log("unity-script: IronSource.Agent.isInterstitialReady - False");
-                LoadInterstitial();
+                instance.LoadInterstitial();
                 ViewComplete?.Invoke();
             }
-        }
-
-        public static void ShowInterstitial(string placementName)
-        {
-            // if (BizzyBeeGames.IAPManager.Instance.IsProductPurchased("removeads"))
-            //     return;
-
-            ShowInterstitial();
-            return;
-
-            IronSource.Agent.showInterstitial(placementName);
-        }
-
-        public static void ShowBanner(IronSourceBannerPosition bannerPosition = IronSourceBannerPosition.BOTTOM)
-        {
-            // if (BizzyBeeGames.IAPManager.Instance.IsProductPurchased("removeads"))
-            //     return;
-            if (removeAds)
-            {
-                return;
-            }
-            IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, bannerPosition);
-        }
-
-        public static void HideBanner()
-        {
-            IronSource.Agent.destroyBanner();
         }
     }
 }

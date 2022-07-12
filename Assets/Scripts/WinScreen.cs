@@ -883,6 +883,7 @@ public class WinScreen : MonoBehaviour
 
 	private void Init(InitArguments initArguments)
 	{
+		initArguments.additionalCoins += 50;
 		this.initArguments = initArguments;
 		tapState = default(TapState);
 		GGUtil.Hide(tapContainer);
