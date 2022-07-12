@@ -152,6 +152,28 @@ public class TextDialog : MonoBehaviour
 
 	private MessageArguments messageArguments;
 
+
+	public void ShowOkFirst(MessageArguments messageArguments, Action onComplete)
+	{
+		this.messageArguments = messageArguments;
+		string message = messageArguments.message;
+		GGUtil.ChangeText(textLabel, message);
+		this.onComplete = onComplete;
+		time = 0f;
+		// NavigationManager.instance.Push(base.gameObject, isModal: true);
+		animation = null;
+		if (!messageArguments.showProgress)
+		{
+			GGUtil.Hide(progressContainer);
+		}
+		else
+		{
+			animation = DoProgressBar();
+			animation.MoveNext();
+		}
+		// GGSoundSystem.Play(GGSoundSystem.SFXType.FlyIn);
+	}
+	
 	public void ShowOk(MessageArguments messageArguments, Action onComplete)
 	{
 		this.messageArguments = messageArguments;

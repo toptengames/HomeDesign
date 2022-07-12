@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using ITSoft;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,11 @@ public class CurrencyPurchaseDialog : UILayer
 	{
 		FirstPage,
 		AllPage
+	}
+
+	public void ShowRewardedVideo()
+	{
+		AdsManager.ShowRewarded();
 	}
 
 	[Serializable]
@@ -218,6 +224,7 @@ public class CurrencyPurchaseDialog : UILayer
 				_003C_003E1__state = -1;
 				float num2 = 0f;
 				_003CenumList_003E5__2 = new EnumeratorsList();
+				_003CenumList_003E5__2.Add(currencyPurchaseDialog.rewardButton.DoAnimateOut(num2));
 				_003CenumList_003E5__2.Add(currencyPurchaseDialog.nextButton.DoAnimateOut(num2));
 				for (int i = 0; i < currencyPurchaseDialog.smallItems.Count; i++)
 				{
@@ -296,6 +303,9 @@ public class CurrencyPurchaseDialog : UILayer
 	private RectTransform nextButtonContainer;
 
 	[SerializeField]
+	private RectTransform rewardButtonContainer;
+
+	[SerializeField]
 	private Vector2 spacingBigPrefabs;
 
 	[SerializeField]
@@ -320,6 +330,9 @@ public class CurrencyPurchaseDialog : UILayer
 
 	[SerializeField]
 	private CurrencyPurchaseDialogNextButton nextButton;
+	
+	[SerializeField]
+	private CurrencyPurchaseDialogSmallPrefab rewardButton;
 
 	[SerializeField]
 	private float animationDelayPerColumn = 0.1f;
@@ -453,7 +466,8 @@ public class CurrencyPurchaseDialog : UILayer
 			if (type == PageType.FirstPage)
 			{
 				int num2 = smallItemsPerGroup - num % smallItemsPerGroup;
-				List<RectTransform> list4 = CreateSmallPrefabs(list2, (pageItemInfo2.results.Count - 1) * smallItemsPerGroup, num2 - 1);
+				List<RectTransform> list4 = CreateSmallPrefabs(list2, (pageItemInfo2.results.Count - 1) * smallItemsPerGroup, num2 - 2);
+				list4.Add(rewardButtonContainer);
 				list4.Add(nextButtonContainer);
 				currencyPurchaseDialogMultyPrefab2.Init(list4);
 			}
@@ -470,10 +484,12 @@ public class CurrencyPurchaseDialog : UILayer
 		if (type == PageType.FirstPage)
 		{
 			GGUtil.SetActive(nextButtonContainer, active: true);
+			GGUtil.SetActive(rewardButtonContainer, active: true);
 		}
 		else
 		{
 			GGUtil.SetActive(nextButtonContainer, active: false);
+			GGUtil.SetActive(rewardButtonContainer, active: false);
 		}
 		List<RectTransform> list5 = new List<RectTransform>();
 		for (int l = 0; l < bigItems.Count; l++)
@@ -538,6 +554,8 @@ public class CurrencyPurchaseDialog : UILayer
 				num6 += animationDelayPerColumn;
 			}
 		}
+
+		rewardButton.AnimateIn(num6);
 		nextButton.AnimateIn(num6);
 	}
 
@@ -635,5 +653,18 @@ public class CurrencyPurchaseDialog : UILayer
 		{
 			instance.QueryInventory();
 		}
+
+		AdsManager.OnCompleteRewardVideo += AddMoney;
+	}
+
+	private void OnDisable()
+	{
+		AdsManager.OnCompleteRewardVideo -= AddMoney;
+	}
+
+	private void AddMoney()
+	{
+		GGPlayerSettings.instance.walletManager.AddCurrency(CurrencyType.coins, 100);
+		coinsCurrencyLabel.text = GGFormat.FormatPrice(GGPlayerSettings.instance.walletManager.CurrencyCount(CurrencyType.coins));
 	}
 }
