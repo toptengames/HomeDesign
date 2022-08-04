@@ -41,11 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\FirebaseCrashlytics.androidlib\res\values\crashlytics_build_id.xml" />
      <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
      <None Include="Assets\Plugins\Android\FirebaseCrashlytics.androidlib\res\values\crashlytics_unity_version.xml" />
      <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\FirebaseCrashlytics.androidlib\AndroidManifest.xml" />
      <Reference Include="UnityEngine">
