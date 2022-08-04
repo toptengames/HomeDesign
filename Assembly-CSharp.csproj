@@ -1048,6 +1048,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_CircleFade.shader" />
      <None Include="Assets\Shaders\Custom_LightningBoltShaderMesh.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Additive.shader" />
+     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GrassFX.shader" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Count.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Noise.shader" />
@@ -1152,7 +1153,6 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_SkyCloud.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_SkyCloud.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_DesintegrationFX.shader" />
-     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Pixel8bitsGB.shader" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -1199,6 +1199,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_NoiseAnimated.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Offset.shader" />
+     <None Include="Assets\StreamingAssets\UnityServicesProjectConfiguration.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_IcedFX.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrayScale.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_DestroyedFX.shader" />
