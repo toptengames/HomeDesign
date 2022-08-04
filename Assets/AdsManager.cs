@@ -37,12 +37,8 @@ namespace ITSoft {
 
         private void OnEnable()
         {
-            interstitialAd.OnAdFailedToLoad += LoadInterstitial;
-            interstitialAd.OnAdClosed += LoadInterstitial;
-            interstitialAd.OnAdClosed += InterVideoAdRewardedEvent;
-            rewardedAd.OnUserEarnedReward += RewardedVideoAdRewardedEvent;
-            rewardedAd.OnAdFailedToShow += ErrorShowingReward;
-            rewardedAd.OnAdClosed += ErrorShowingReward;
+
+
         }
 
         private void ErrorShowingReward(object sender, EventArgs e)
@@ -89,6 +85,9 @@ namespace ITSoft {
         {
             interstitialAd = new InterstitialAd(interId);
             var request = new AdRequest.Builder().Build();
+            interstitialAd.OnAdFailedToLoad += LoadInterstitial;
+            interstitialAd.OnAdClosed += LoadInterstitial;
+            interstitialAd.OnAdClosed += InterVideoAdRewardedEvent;
             interstitialAd.LoadAd(request);
         }
 
@@ -96,6 +95,9 @@ namespace ITSoft {
         {
             rewardedAd = new RewardedAd(rewardedId);
             var request = new AdRequest.Builder().Build();
+            rewardedAd.OnUserEarnedReward += RewardedVideoAdRewardedEvent;
+            rewardedAd.OnAdFailedToShow += ErrorShowingReward;
+            rewardedAd.OnAdClosed += ErrorShowingReward;
             rewardedAd.LoadAd(request);
         }
         

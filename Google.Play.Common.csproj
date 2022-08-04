@@ -41,14 +41,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\UnityPlayerHelper.cs" />
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\LoadingScreen\ScrollingFillAnimator.cs" />
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\VoidResult.cs" />
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\Internal\AndroidConstants.cs" />
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\Internal\PlayAsyncOperationImpl.cs" />
-     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\PlayAsyncOperation.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\LoadingScreen\LoadingBar.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\LoadingScreen\LoadingScreen.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\UnityPlayerHelper.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\LoadingScreen\ScrollingFillAnimator.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\Internal\AndroidConstants.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\PlayAsyncOperation.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\Internal\PlayAsyncOperationImpl.cs" />
+     <Compile Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Scripts\VoidResult.cs" />
      <None Include="Assets\GooglePlayPlugins\com.google.play.common\Runtime\Google.Play.Common.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -290,6 +290,9 @@
      <Reference Include="log4netPlastic">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
      </Reference>
+     <Reference Include="GoogleMobileAds.Common">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
+     </Reference>
      <Reference Include="Firebase.App">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
      </Reference>
@@ -302,11 +305,11 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="Facebook.Unity.Gameroom">
-     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
-     </Reference>
      <Reference Include="ProtoSerializer">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="Facebook.Unity.Gameroom">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
      </Reference>
      <Reference Include="FacebookNamedPipeClient">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
@@ -326,35 +329,35 @@
      <Reference Include="Google.VersionHandler">
      <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
      </Reference>
-     <Reference Include="GoogleMobileAds.Common">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
-     </Reference>
      <Reference Include="Facebook.Unity.Settings">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Android">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll</HintPath>
      </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     </Reference>
      <Reference Include="AWSSDK.MobileAnalytics">
      <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.MobileAnalytics.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <Reference Include="GoogleMobileAds.Android">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Android.dll</HintPath>
      </Reference>
      <Reference Include="Google.PackageManagerResolver">
      <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.PackageManagerResolver.dll</HintPath>
      </Reference>
-     <Reference Include="GoogleMobileAds">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
-     </Reference>
-     <Reference Include="GoogleMobileAds.Unity">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
-     </Reference>
      <Reference Include="Firebase.Crashlytics.Editor">
      <HintPath>D:/HomeDesign/Assets/Firebase/Editor/Firebase.Crashlytics.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="GoogleMobileAds">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Unity">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
@@ -374,11 +377,11 @@
      <Reference Include="Firebase.Analytics">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
      </Reference>
-     <Reference Include="GoogleMobileAds.Core">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     </Reference>
+     <Reference Include="GoogleMobileAds.Core">
+     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.Core">
      <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.Core.dll</HintPath>
@@ -392,11 +395,11 @@
      <Reference Include="Google.VersionHandlerImpl">
      <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.VersionHandlerImpl.dll</HintPath>
      </Reference>
-     <Reference Include="Firebase.Platform">
-     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
-     </Reference>
      <Reference Include="ProtoModels">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoModels.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Compat">
      <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
