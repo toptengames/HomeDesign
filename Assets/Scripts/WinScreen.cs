@@ -900,7 +900,7 @@ public class WinScreen : MonoBehaviour
 		var levelNumber = Match3StagesDB.instance.passedStages;
 		Debug.LogError($"level_complete_{levelNumber}");
 		AnalyticsManager.Log($"level_complete_{levelNumber}");
-		if(levelNumber >= 49)
+		if(levelNumber >= 2)
 		{
 			AdsManager.ShowInterstitial();
 		}

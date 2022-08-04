@@ -95,9 +95,9 @@
      <Compile Include="Assets\Scripts\Expressive\Exceptions\ExpressiveException.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseCurrencyPrefab.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Heat.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_AL_Pixel8bitsBW.cs" />
      <Compile Include="Assets\Scripts\GiftsDefinitionDB.cs" />
      <Compile Include="Assets\Scripts\Vector3Ex.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_AL_Pixel8bitsBW.cs" />
      <Compile Include="Assets\Scripts\PowerCrossAffector.cs" />
      <Compile Include="Assets\Scripts\LightingBolt.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MultiLayerItemBehaviour.cs" />
@@ -108,13 +108,13 @@
      <Compile Include="Assets\Scripts\GGMatch3\SwapParams.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Hologram2.cs" />
      <Compile Include="Assets\Scripts\GGSoundSystem.cs" />
-     <Compile Include="Assets\Scripts\GGFileIOCloudSync.cs" />
      <Compile Include="Assets\CameraSmartFitter.cs" />
-     <Compile Include="Assets\Scripts\LevelEditorMonster.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_GrayScale.cs" />
      <Compile Include="Assets\Scripts\VisualObjectParticles.cs" />
+     <Compile Include="Assets\Scripts\GGFileIOCloudSync.cs" />
      <Compile Include="Assets\EasyMobile\Scripts\MobileNativeUI\Platforms\AndroidNativeAlert.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\OperatorBase.cs" />
+     <Compile Include="Assets\Scripts\LevelEditorMonster.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_MetalFX.cs" />
      <Compile Include="Assets\Scripts\GGNotificationCenter.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_GrayScale.cs" />
@@ -131,8 +131,8 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_CompressionFX.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningMeshSurfaceScript.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Frozen.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Operators\Relational\NotEqualOperator.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGeneratorPath.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Operators\Relational\NotEqualOperator.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\TilePosition.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BurningFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_CircleFade.cs" />
@@ -171,12 +171,12 @@
      <Compile Include="Assets\Scripts\GGMessageConfig.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3Settings.cs" />
      <Compile Include="Assets\Scripts\LootBoxController.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_Fire.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_CompressionFX.cs" />
      <Compile Include="Assets\Scripts\CharacterVisualObjectSceneItem.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\GeneratorSetup.cs" />
      <Compile Include="Assets\Scripts\GameScreenMenu.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningGenerator.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_Fire.cs" />
      <Compile Include="Assets\Scripts\UILayer.cs" />
      <Compile Include="Assets\Scripts\HiddenElementBorderRenderer.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\RandomFunction.cs" />
@@ -227,16 +227,16 @@
      <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\CameraController.cs" />
      <Compile Include="Assets\IAPPurchaser.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\CollectBurriedElementAction.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Expressions\ConstantValueExpression.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\IOperator.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Expressions\ConstantValueExpression.cs" />
      <Compile Include="Assets\Scripts\UnityPurchasing\generated\AppleTangle.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\CollectBurriedElementAction.cs" />
      <Compile Include="Assets\Scripts\ChipFeatherBehaviour.cs" />
      <Compile Include="Assets\Scripts\VisibilityHelper.cs" />
-     <Compile Include="Assets\Scripts\MoneyPickupAnimationMoney.cs" />
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
-     <Compile Include="Assets\Scripts\CurrencyCountLabel.cs" />
+     <Compile Include="Assets\Scripts\MoneyPickupAnimationMoney.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SolidPieceRenderer.cs" />
+     <Compile Include="Assets\Scripts\CurrencyCountLabel.cs" />
      <Compile Include="Assets\Scripts\PieceType.cs" />
      <Compile Include="Assets\Scripts\GGAppleSignIn.cs" />
      <Compile Include="Assets\Scripts\ConfirmPurchasePanel.cs" />
@@ -262,11 +262,11 @@
      <Compile Include="Assets\Scripts\GGMatch3\FlyRocketPieceAction.cs" />
      <Compile Include="Assets\RoomProgressBar.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\GameScreen.cs" />
      <Compile Include="Assets\Scripts\ManualScripts.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\JumpRampBehaviour.cs" />
      <Compile Include="Assets\Scripts\SceneObjectsDB.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\YearOfFunction.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\GameScreen.cs" />
      <Compile Include="Assets\AudienceNetwork\Library\ExtraHints.cs" />
      <Compile Include="Assets\Scripts\CharacterSceneMarker.cs" />
      <Compile Include="Assets\Scripts\Pair.cs" />
@@ -396,8 +396,8 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_Clipping.cs" />
      <Compile Include="Assets\Scripts\GGTest.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ChipBehaviour.cs" />
-     <Compile Include="Assets\Scripts\TMPro\Examples\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Scripts\EZCameraShake\CameraShakeInstance.cs" />
+     <Compile Include="Assets\Scripts\TMPro\Examples\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Scripts\SoundPlayer.cs" />
      <Compile Include="Assets\Scripts\VisualSprite.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Logical\IfFunction.cs" />
@@ -485,8 +485,8 @@
      <Compile Include="Assets\Scripts\ComponentPool.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Hologram3.cs" />
      <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_BurnFX.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_BlurHQX.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_BurnFX.cs" />
      <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\MinAttribute.cs" />
      <Compile Include="Assets\Scripts\CopyMaterialChangeVariation.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\LockContainer.cs" />
@@ -533,8 +533,8 @@
      <Compile Include="Assets\Scripts\_2dxFX_Threshold.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Pixel8bitsGB.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Pattern.cs" />
-     <Compile Include="Assets\Scripts\CarModel.cs" />
      <Compile Include="Assets\Scripts\Expressive\ExpressiveOptions.cs" />
+     <Compile Include="Assets\Scripts\CarModel.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SnowCover.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Conditional\NullCoalescingOperator.cs" />
      <Compile Include="Assets\Scripts\GGMarkIslands.cs" />
@@ -547,9 +547,9 @@
      <Compile Include="Assets\Scripts\PartTemplate.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\RoundFunction.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_HSV.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Operators\Relational\GreaterThanOrEqualOperator.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Smoke.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_GoldFX.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Operators\Relational\GreaterThanOrEqualOperator.cs" />
      <Compile Include="Assets\Scripts\RankedBoostersContainer.cs" />
      <Compile Include="Assets\Scripts\InAppPurchaseConfirmScreen.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_NoiseAnimated.cs" />
@@ -559,8 +559,8 @@
      <Compile Include="Assets\Scripts\DistortedImageRenderer.cs" />
      <Compile Include="Assets\Scripts\CurrencyPurchaseDialogSmallPrefab.cs" />
      <Compile Include="Assets\Scripts\GGCloth\PointPositionConstraint.cs" />
-     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\GameTapToContinueContainer.cs" />
+     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltPrefabScript.cs" />
      <Compile Include="Assets\Scripts\VariationButton.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Additive\PlusOperator.cs" />
@@ -594,8 +594,8 @@
      <Compile Include="Assets\Scripts\_2dxFX_SkyCloud.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\FunctionExpression.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoBallAffector.cs" />
-     <Compile Include="Assets\Scripts\_2dxFX_NewTeleportation2.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_Fire.cs" />
+     <Compile Include="Assets\Scripts\_2dxFX_NewTeleportation2.cs" />
      <Compile Include="Assets\Scripts\SlotColorSlateBehaviour.cs" />
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\SpecialGeneratorBehaviour.cs" />
@@ -637,9 +637,9 @@
      <Compile Include="Assets\Scripts\FXAA.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\PopulateBoard.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\SlotComponent.cs" />
-     <Compile Include="Assets\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\PowerLineAffector.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CombineChipAffectors.cs" />
+     <Compile Include="Assets\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\CameraLookAt.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningFieldScript.cs" />
      <Compile Include="Assets\Scripts\TasksButton.cs" />
@@ -699,8 +699,8 @@
      <Compile Include="Assets\Scripts\_2dxFX_Waterfall.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ActionManager.cs" />
      <Compile Include="Assets\Scripts\DragButton.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\WinScreenBoardOutAnimation.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_NoiseAnimated.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\WinScreenBoardOutAnimation.cs" />
      <Compile Include="Assets\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_FlameAdditive.cs" />
      <Compile Include="Assets\EasyMobile\Generated\EM_IAPConstants.cs" />
@@ -791,10 +791,10 @@
      <Compile Include="Assets\Scripts\_2dxFX_Smoke.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DestroyChipActionExplosion.cs" />
      <Compile Include="Assets\Scripts\TMPro\Examples\Benchmark03.cs" />
-     <Compile Include="Assets\Scripts\SlotsRendererPool.cs" />
      <Compile Include="Assets\Scripts\ExperimentDefinitionAssetStore.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Outline.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\ExplosionAction.cs" />
+     <Compile Include="Assets\Scripts\SlotsRendererPool.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Sharpen.cs" />
      <Compile Include="Assets\Scripts\Expressive\Helpers\Comparison.cs" />
      <Compile Include="Assets\Scripts\GGSnapshotFileIO.cs" />
@@ -818,8 +818,8 @@
      <Compile Include="Assets\Scripts\SpawnEffect.cs" />
      <Compile Include="Assets\Scripts\FPSDisplay.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltTransformTrackerScript.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\DiscoChipCombineWithPowerupAffector.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Blood.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\DiscoChipCombineWithPowerupAffector.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_AL_ColorRGB.cs" />
      <Compile Include="Assets\Scripts\ExplodeAnimation.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\IEEERemainderFunction.cs" />
@@ -872,9 +872,9 @@
      <Compile Include="Assets\Scripts\_2dxFX_AL_WoodFX.cs" />
      <Compile Include="Assets\Scripts\UnityPurchasing\generated\AppleStoreKitTestTangle.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\DiscoBallDestroyAction.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\NeuQuant.cs" />
      <Compile Include="Assets\Scripts\Expressive\Operators\Grouping\ParenthesisCloseOperator.cs" />
      <Compile Include="Assets\Scripts\LoadingPanel.cs" />
+     <Compile Include="Assets\EasyMobile\Scripts\Gif\Moments\Scripts\Gif\NeuQuant.cs" />
      <Compile Include="Assets\AudienceNetwork\Scenes\BaseScene.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddYearsFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Token.cs" />
@@ -892,8 +892,8 @@
      <Compile Include="Assets\Scripts\GGMatch3\ExtraFallingElements.cs" />
      <Compile Include="Assets\Scripts\BurriedElementBehaviour.cs" />
      <Compile Include="Assets\Scripts\LineChipAffector.cs" />
-     <Compile Include="Assets\Scripts\EZCameraShake\CameraUtilities.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\String\LengthFunction.cs" />
+     <Compile Include="Assets\Scripts\EZCameraShake\CameraUtilities.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MinutesBetweenFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Mathematical\SumFunction.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\SecondOfFunction.cs" />
@@ -937,9 +937,9 @@
      <Compile Include="Assets\Scripts\GGMatch3\BoltCollection.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3Goals.cs" />
      <Compile Include="Assets\Scripts\DigitalRuby\ThunderAndLightning\LightningBoltParameters.cs" />
-     <Compile Include="Assets\Scripts\BombChipAffector.cs" />
      <Compile Include="Assets\Scripts\GGSupportMenu.cs" />
      <Compile Include="Assets\Scripts\GameCompleteParams.cs" />
+     <Compile Include="Assets\Scripts\BombChipAffector.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_EdgeColor.cs" />
      <Compile Include="Assets\Scripts\CurrencyPanel.cs" />
      <Compile Include="Assets\Scripts\PluginCallbackManager.cs" />
@@ -953,8 +953,8 @@
      <Compile Include="Assets\EasyMobile\Scripts\Utilities\RatingRequest\MobileNativeRatingRequest.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_PatternAdditive.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\DayOfFunction.cs" />
-     <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddDaysFunction.cs" />
      <Compile Include="Assets\Scripts\MonsterElementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Expressive\Functions\Date\AddDaysFunction.cs" />
      <Compile Include="Assets\AudienceNetwork\Library\AdSettings.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\MovingElement.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\CrossExplosionAction.cs" />
@@ -984,8 +984,8 @@
      <Compile Include="Assets\Scripts\Expressive\Functions\Statistical\AverageFunction.cs" />
      <Compile Include="Assets\Scripts\GGMatch3\Match3StagesDB.cs" />
      <Compile Include="Assets\Scripts\_2dxFX_Mystic_Distortion.cs" />
-     <Compile Include="Assets\Scripts\GGMatch3\SlotLightBehaviour.cs" />
      <Compile Include="Assets\EasyMobile\Scripts\Advertising\BannerAdPosition.cs" />
+     <Compile Include="Assets\Scripts\GGMatch3\SlotLightBehaviour.cs" />
      <Compile Include="Assets\Scripts\Expressive\Functions\Date\MinuteOfFunction.cs" />
      <Compile Include="Assets\AudienceNetwork\Scenes\Settings\SettingsScene.cs" />
      <Compile Include="Assets\Scripts\Expressive\Expressions\BinaryExpression.cs" />
@@ -1052,6 +1052,7 @@
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Count.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Noise.shader" />
      <None Include="Assets\Resources\shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.core\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Heat.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrassMultiFX.shader" />
      <None Include="Assets\Resources\shaders\TMPro_Surface.cginc" />
@@ -1060,15 +1061,14 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Clipping.shader" />
      <None Include="Assets\ProceduralLightning\ChangeLog.txt" />
-     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_BlurHQX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Color.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Offset.shader" />
      <None Include="Assets\Shaders\Unlit_GGMatch3ScrollingWithMask.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_CircleFade.shader" />
      <None Include="Assets\Shaders\Legacy Shaders_Particles_Alpha Blended Premultiply.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\package.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Frozen.shader" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.common\package.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Sharpen.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Slim.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PlasmaShield.shader" />
@@ -1093,6 +1093,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Sepia.shader" />
      <None Include="Assets\Shaders\Unluck Software_Mobile Vertex Color Cull Off.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Outline.shader" />
+     <None Include="Assets\Resources\BillingMode.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Flame.shader" />
      <None Include="Assets\Shaders\Legacy Shaders_Particles_Additive.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Jelly.shader" />
@@ -1108,13 +1109,12 @@
      <None Include="Assets\Resources\shaders\TMPro.cginc" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Lightning.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Pixel8bitsBW.shader" />
-     <None Include="Assets\GooglePlayPlugins\com.google.android.appbundle\package.json" />
      <None Include="Assets\Shaders\Mobile_Particles_Alpha Blended.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_BlackHole.shader" />
      <None Include="Assets\GoogleMobileAds\link.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.core\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Negative.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\Proguard\integrity.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Cartoon.shader" />
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_Sphere.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_HSV.shader" />
@@ -1125,14 +1125,11 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PatternAdditive.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_EdgeColor.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_BurningFX.shader" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\Proguard\integrity.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Sharpen.shader" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Proguard\common.txt" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_GoldFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Jelly.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrassFX.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Outline.shader" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Shiny_Reflect.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\AdditiveSoftTintableShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
@@ -1192,6 +1189,7 @@
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Ice.shader" />
      <None Include="Assets\Shaders\Unlit_GGSpriteShader.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_4Gradients.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Proguard\common.txt" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_BurningFX.shader" />
      <None Include="Assets\Shaders\Legacy Shaders_Particles_Alpha Blended.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Hologram3.shader" />
@@ -1200,6 +1198,7 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_NoiseAnimated.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Offset.shader" />
+     <None Include="Assets\StreamingAssets\UnityServicesProjectConfiguration.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_IcedFX.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_GrayScale.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_DestroyedFX.shader" />
@@ -1210,13 +1209,13 @@
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Mystic_Distortion.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_ColorRGB.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMeshNoGlow.shader" />
-     <None Include="Assets\Resources\BillingMode.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Liquid.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_PixelDie.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Teleportation.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Smoke.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Liquid.shader" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Fire.shader" />
+     <None Include="Assets\StreamingAssets\google-services-desktop.json" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Lightning.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Pixel8bitsC64.shader" />
@@ -1235,7 +1234,9 @@
      <None Include="Assets\Resources\GGPaintableTexture\GGPaintableTexture_MarkIslands.shader" />
      <None Include="Assets\Resources\languages\English.xml" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_Pixel8bitsC64.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.android.appbundle\package.json" />
      <None Include="Assets\Resources\2DxFX\Standard\2DxFX_Standard_EnergyBar.shader" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.common\package.json" />
      <None Include="Assets\Shaders\GGMatch3_Diffuse Stencil.shader" />
      <None Include="Assets\Resources\2DxFX\AL\2DxFX_AL_Normal.shader" />
      <None Include="Assets\Shaders\Mobile_Particles_Additive.shader" />
@@ -1482,20 +1483,17 @@
      <Reference Include="Firebase.App">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
      </Reference>
-     <Reference Include="GoogleMobileAds.iOS">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll</HintPath>
-     </Reference>
      <Reference Include="Firebase.Firestore">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Database">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
      </Reference>
-     <Reference Include="Facebook.Unity.Gameroom">
-     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
-     </Reference>
      <Reference Include="ProtoSerializer">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="Facebook.Unity.Gameroom">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
      </Reference>
      <Reference Include="FacebookNamedPipeClient">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
@@ -1554,11 +1552,11 @@
      <Reference Include="Unity.Tasks">
      <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
      </Reference>
-     <Reference Include="Firebase.Platform">
-     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
-     </Reference>
      <Reference Include="ProtoModels">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoModels.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Compat">
      <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
@@ -2006,18 +2004,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
-      <Project>{54510933-4d6f-6bbf-da4d-775bc64656c7}</Project>
-      <Name>GoogleMobileAds.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Google.Play.Integrity.csproj">
-      <Project>{140f3392-ce8c-8460-7c4e-d8305849550f}</Project>
-      <Name>Google.Play.Integrity</Name>
-    </ProjectReference>
-    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
-      <Project>{5dbca5f2-6110-1d38-bac2-ebef823594e9}</Project>
-      <Name>Google.Android.AppBundle.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Google.Play.Core.csproj">
       <Project>{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}</Project>
       <Name>Google.Play.Core</Name>
@@ -2025,6 +2011,18 @@
     <ProjectReference Include="Google.Play.Common.csproj">
       <Project>{2876832c-a9a9-9349-9cea-70f93ad17827}</Project>
       <Name>Google.Play.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Integrity.csproj">
+      <Project>{140f3392-ce8c-8460-7c4e-d8305849550f}</Project>
+      <Name>Google.Play.Integrity</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{54510933-4d6f-6bbf-da4d-775bc64656c7}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
+      <Project>{5dbca5f2-6110-1d38-bac2-ebef823594e9}</Project>
+      <Name>Google.Android.AppBundle.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

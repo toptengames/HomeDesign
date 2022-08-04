@@ -65,14 +65,13 @@
      <Compile Include="Assets\EasyMobile\Scripts\Gif\Editor\RecorderEditor.cs" />
      <Compile Include="Assets\EasyMobile\Editor\EM_EditorUtil.cs" />
      <Compile Include="Assets\EasyMobile\Editor\EM_About.cs" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\Editor\Dependencies.xml" />
      <None Include="Assets\Firebase\Editor\FirebaseDatabase_version-9.1.0_manifest.txt" />
      <None Include="Assets\Firebase\Editor\FirebaseCrashlytics_version-8.4.0_manifest.txt" />
      <None Include="Assets\AudienceNetwork\Editor\AudienceNetworkDependencies.xml" />
-     <None Include="Assets\Firebase\Editor\FirebaseFirestore_version-8.4.0_manifest.txt" />
-     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Editor\Dependencies.xml" />
-     <None Include="Assets\EasyMobile\Editor\Templates\Template_GooglePlayTangle.txt" />
      <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.172_manifest.txt" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.integrity\Editor\Dependencies.xml" />
+     <None Include="Assets\Firebase\Editor\FirebaseFirestore_version-8.4.0_manifest.txt" />
+     <None Include="Assets\EasyMobile\Editor\Templates\Template_GooglePlayTangle.txt" />
      <None Include="Assets\Firebase\Editor\FirebaseDatabase_version-8.4.0_manifest.txt" />
      <None Include="Assets\EasyMobile\Editor\Templates\Template_AppleTangle.txt" />
      <None Include="Assets\Firebase\Editor\FirebaseFirestore_version-9.1.0_manifest.txt" />
@@ -89,6 +88,7 @@
      <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
      <None Include="Assets\Firebase\Editor\CrashlyticsDependencies.xml" />
      <None Include="Assets\Firebase\Editor\DatabaseDependencies.xml" />
+     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Editor\Dependencies.xml" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -323,6 +323,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Google.JarResolver">
+     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.JarResolver.dll</HintPath>
+     </Reference>
      <Reference Include="Firebase.Crashlytics">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Crashlytics.dll</HintPath>
      </Reference>
@@ -341,12 +344,6 @@
      <Reference Include="Firebase.App">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
      </Reference>
-     <Reference Include="Google.VersionHandlerImpl">
-     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.VersionHandlerImpl.dll</HintPath>
-     </Reference>
-     <Reference Include="GoogleMobileAds.iOS">
-     <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll</HintPath>
-     </Reference>
      <Reference Include="Firebase.Firestore">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
      </Reference>
@@ -356,11 +353,11 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="Facebook.Unity.Gameroom">
-     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
-     </Reference>
      <Reference Include="ProtoSerializer">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="Facebook.Unity.Gameroom">
+     <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
      </Reference>
      <Reference Include="FacebookNamedPipeClient">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
@@ -383,11 +380,11 @@
      <Reference Include="Facebook.Unity.Settings">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
      </Reference>
-     <Reference Include="Google.PackageManagerResolver">
-     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.PackageManagerResolver.dll</HintPath>
-     </Reference>
      <Reference Include="Facebook.Unity.Android">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="AWSSDK.MobileAnalytics">
      <HintPath>D:/HomeDesign/Assets/Plugins/AWSSDK.MobileAnalytics.dll</HintPath>
@@ -395,11 +392,8 @@
      <Reference Include="GoogleMobileAds.Android">
      <HintPath>D:/HomeDesign/Assets/GoogleMobileAds/GoogleMobileAds.Android.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Google.IOSResolver">
-     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.IOSResolver.dll</HintPath>
+     <Reference Include="Google.PackageManagerResolver">
+     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.PackageManagerResolver.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Crashlytics.Editor">
      <HintPath>D:/HomeDesign/Assets/Firebase/Editor/Firebase.Crashlytics.Editor.dll</HintPath>
@@ -415,9 +409,6 @@
      </Reference>
      <Reference Include="Facebook.Unity">
      <HintPath>D:/HomeDesign/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
-     </Reference>
-     <Reference Include="Google.JarResolver">
-     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.JarResolver.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -449,17 +440,23 @@
      <Reference Include="Unity.Tasks">
      <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
      </Reference>
-     <Reference Include="Firebase.Platform">
-     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+     <Reference Include="Google.VersionHandlerImpl">
+     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.VersionHandlerImpl.dll</HintPath>
      </Reference>
      <Reference Include="ProtoModels">
      <HintPath>D:/HomeDesign/Assets/Plugins/ProtoModels.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Compat">
      <HintPath>D:/HomeDesign/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Auth">
      <HintPath>D:/HomeDesign/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.IOSResolver">
+     <HintPath>D:/HomeDesign/Assets/ExternalDependencyManager/Editor/1.2.172/Google.IOSResolver.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:/HomeDesign/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -914,18 +911,6 @@
       <Project>{cb95319f-4e16-829d-fc0c-ee4b38122c8f}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
-      <Project>{54510933-4d6f-6bbf-da4d-775bc64656c7}</Project>
-      <Name>GoogleMobileAds.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Google.Play.Integrity.csproj">
-      <Project>{140f3392-ce8c-8460-7c4e-d8305849550f}</Project>
-      <Name>Google.Play.Integrity</Name>
-    </ProjectReference>
-    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
-      <Project>{5dbca5f2-6110-1d38-bac2-ebef823594e9}</Project>
-      <Name>Google.Android.AppBundle.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Google.Play.Core.csproj">
       <Project>{8b08d1b9-f937-62a6-c1ec-2dc121b46cc8}</Project>
       <Name>Google.Play.Core</Name>
@@ -933,6 +918,18 @@
     <ProjectReference Include="Google.Play.Common.csproj">
       <Project>{2876832c-a9a9-9349-9cea-70f93ad17827}</Project>
       <Name>Google.Play.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Integrity.csproj">
+      <Project>{140f3392-ce8c-8460-7c4e-d8305849550f}</Project>
+      <Name>Google.Play.Integrity</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{54510933-4d6f-6bbf-da4d-775bc64656c7}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
+      <Project>{5dbca5f2-6110-1d38-bac2-ebef823594e9}</Project>
+      <Name>Google.Android.AppBundle.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
