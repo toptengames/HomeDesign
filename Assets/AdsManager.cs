@@ -81,6 +81,9 @@ namespace ITSoft {
 
         private void CreateAndLoadInterAd()
         {
+            if(Application.internetReachability == NetworkReachability.NotReachable)
+                return;
+            
             interstitialAd = new InterstitialAd(interId);
             var request = new AdRequest.Builder().Build();
             interstitialAd.OnAdFailedToLoad += LoadInterstitial;
@@ -91,9 +94,13 @@ namespace ITSoft {
 
         private void CreateAndLoadRewardAd()
         {
+            if(Application.internetReachability == NetworkReachability.NotReachable)
+                return;
+            
             rewardedAd = new RewardedAd(rewardedId);
             var request = new AdRequest.Builder().Build();
             rewardedAd.OnUserEarnedReward += RewardedVideoAdRewardedEvent;
+            rewardedAd.OnUserEarnedReward += ErrorShowingReward;
             rewardedAd.OnAdFailedToShow += ErrorShowingReward;
             rewardedAd.OnAdClosed += ErrorShowingReward;
             rewardedAd.LoadAd(request);
@@ -103,7 +110,6 @@ namespace ITSoft {
         {
             //Debug.Log("unity-script: I got RewardedVideoAdRewardedEvent, amount = " + ssp.getRewardAmount() + " name = " + ssp.getRewardName());
             OnCompleteRewardVideo?.Invoke();
-            CreateAndLoadRewardAd();
         }
 
         void InterVideoAdRewardedEvent(object sender, EventArgs e)
@@ -117,8 +123,8 @@ namespace ITSoft {
             removeAds = true;
         }
         
-        public static bool RewardIsReady() => instance.rewardedAd.IsLoaded();
-        public static bool InterIsReady() => instance.interstitialAd.IsLoaded();
+        public static bool RewardIsReady() => instance.rewardedAd != null && instance.rewardedAd.IsLoaded();
+        public static bool InterIsReady() => instance.interstitialAd != null && instance.interstitialAd.IsLoaded();
         
         public static void ShowRewarded()
         {
@@ -139,11 +145,13 @@ namespace ITSoft {
                 #if UNITY_EDITOR
                 OnCompleteRewardVideo?.Invoke();
                 #endif
+                instance.CreateAndLoadRewardAd();
             }
         }
 
         private void ErrorShowingReward(object sender, AdErrorEventArgs args)
         {
+            rewardedAd.Destroy();
             CreateAndLoadRewardAd();
         }
         
