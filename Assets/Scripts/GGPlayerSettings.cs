@@ -333,8 +333,14 @@ public class GGPlayerSettings
 
 	public void SetEnergy(float energy, DateTime lastTimeTookEnergy)
 	{
+		SetEnergy(energy, lastTimeTookEnergy);
+	}
+	
+	public void SetEnergy(float energy, DateTime lastTimeTookEnergy, bool save)
+	{
 		Model.energy = energy;
 		Model.lastTimeTookEnergy = lastTimeTookEnergy.Ticks;
-		Save();
+		if(save)
+			Save();
 	}
 }
