@@ -8,6 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 
 public class DecorateRoomScreen : UILayer, Match3GameListener
 {
@@ -911,8 +912,8 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			nav.Pop(activateNextScreen: false);
 			ScrollableSelectRoomScreen.ChangeRoomArguments changeRoomArguments = new ScrollableSelectRoomScreen.ChangeRoomArguments();
 			changeRoomArguments.passedRoom = loadedRoom;
+			changeRoomArguments.passedRoom.isPassed = true;
 			changeRoomArguments.unlockedRoom = ScriptableObjectSingleton<RoomsDB>.instance.NextRoom(loadedRoom);
-			changeRoomArguments.unlockedRoom.isPassed = true;
 			nav.GetObject<ScrollableSelectRoomScreen>().Show(changeRoomArguments);
 		}
 
@@ -954,6 +955,8 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		}
 	}
 
+	[SerializeField] private RoomProgressBar roomProgressBar;
+	
 	[SerializeField]
 	private List<Transform> levelDifficultyWidgets = new List<Transform>();
 
@@ -1131,6 +1134,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 	{
 		Init();
 		accelerometer.Init();
+
 	}
 
 	private void OnDisable()
@@ -1178,12 +1182,15 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 			roomLoadedStyle.Apply();
 			InitScene(scene, isFirstTime: true);
 			InAppBackend instance = BehaviourSingletonInit<InAppBackend>.instance;
+			roomProgressBar.InitProgressbar(scene.GetRoomProgressState().progress);
 		}
 		else
 		{
 			RoomsDB.Room room = ScriptableObjectSingleton<RoomsDB>.instance.ActiveRoom;
 			LoadScene(room);
 		}
+		
+
 	}
 
 	private void LoadScene(RoomsDB.Room room)
@@ -1511,6 +1518,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		InitScene(scene, isFirstTime: false);
 	}
 
+	[ContextMenu("Complete room")]
 	private void OnCompleteRoom()
 	{
 		_003C_003Ec__DisplayClass69_0 _003C_003Ec__DisplayClass69_ = new _003C_003Ec__DisplayClass69_0();
@@ -1602,6 +1610,7 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		}
 		if (updateEnumerator != null && !updateEnumerator.MoveNext())
 		{
+			roomProgressBar.InitProgressbar(scene.GetRoomProgressState().progress);
 			updateEnumerator = null;
 		}
 		if (animationEnumerator != null && !animationEnumerator.MoveNext())
@@ -1851,11 +1860,13 @@ public class DecorateRoomScreen : UILayer, Match3GameListener
 		WalletManager walletManager = GGPlayerSettings.instance.walletManager;
 		GGUtil.SetActive(confirmPurchasePanel, active: false);
 		UnityEngine.Debug.LogFormat("Price is {0} {1}", price.cost, price.currency);
+		#if !UNITY_EDITOR
 		if ((!Application.isEditor || !noCoinsForPurchase) && !walletManager.CanBuyItemWithPrice(price))
 		{
 			ButtonCallback_PlayButtonClick();
 			return;
 		}
+#endif
 		uiItem.visualObjectBehaviour.visualObject.isOwned = true;
 		VariationPanel.InitParams initParams = default(VariationPanel.InitParams);
 		initParams.isPurchased = true;

@@ -277,12 +277,14 @@ public class OutOfLivesDialog : MonoBehaviour
 			Hide();
 			return;
 		}
-		Analytics.LivesRefillBoughtEvent livesRefillBoughtEvent = new Analytics.LivesRefillBoughtEvent();
-		livesRefillBoughtEvent.config = priceConfig;
-		livesRefillBoughtEvent.livesBeforeRefill = currentState.lives;
-		livesRefillBoughtEvent.livesAfterRefill = currentState.lives + 1;
-		livesRefillBoughtEvent.Send();
+		
 		BehaviourSingleton<EnergyManager>.instance.AddEnergy();
+		if (currentState.lives == 4)
+		{
+			Hide();
+			return;
+		}
+
 		UpdateState();
 		UpdateVisuals();
 	}

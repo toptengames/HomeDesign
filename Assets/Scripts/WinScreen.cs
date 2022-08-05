@@ -899,17 +899,9 @@ public class WinScreen : MonoBehaviour
 		var levelNumber = Match3StagesDB.instance.passedStages;
 		Debug.LogError($"level_complete_{levelNumber}");
 		AnalyticsManager.Log($"level_complete_{levelNumber}");
-		if(levelNumber >= 49)
+		if(levelNumber >= 2)
 		{
-			var completelevels = PlayerPrefs.GetInt("CompleteLevels", 0);
-			completelevels++;
-			if (completelevels == 3)
-			{
-				completelevels = 0;
-				AdsManager.ShowInterstitial();
-			}
-
-			PlayerPrefs.SetInt("CompleteLevels", completelevels);
+			AdsManager.ShowInterstitial();
 		}
 	}
 

@@ -122,7 +122,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: e5ba87ba4bb97834ebc3022fc430225f, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: e988ce49af19d6148ba7ed67bd85ae26, type: 2}
 --- !u!1 &1790521937882061872
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,7 +19335,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Such a nice detail and practical too!
@@ -19503,7 +19503,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - I love the artwork!
@@ -19656,7 +19656,7 @@ MonoBehaviour:
       - floormat
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Great use of space!
@@ -20012,7 +20012,7 @@ MonoBehaviour:
       - wallright
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Wow! The view is stunning!
@@ -20952,7 +20952,7 @@ MonoBehaviour:
       - windowleft
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Beautiful curtains!
@@ -21409,7 +21409,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - The curtains frame the window nicely
@@ -22080,7 +22080,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - I love these cute night stands
@@ -22362,7 +22362,7 @@ MonoBehaviour:
       - chair
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Beautiful!
@@ -22678,7 +22678,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Lovely throw!
@@ -22992,10 +22992,10 @@ MonoBehaviour:
   - {fileID: 1790521937882062853}
   sceneFolder: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/PSD
   hierarchyJSONFile: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/Data/V3/hierarchy.json
-  hitboxJSONFile: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/Data/V3/hitboxes.json
+  hitboxJSONFile: 
   metadataJSONFile: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/Data/V3/meta.json
-  handlesJSONFile: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/Data/V3/iconhandles.json
-  dashLineJSONFile: /Users/seandillon/Documents/games/ggmatch3/Assets/Art/Rooms/0020_Bedroom/Data/V3/dashboxes.json
+  handlesJSONFile: 
+  dashLineJSONFile: 
   shouldCreateCharacterScene: 0
   rootTransform: {fileID: 1790521937882062560}
   characterScene: {fileID: 0}
@@ -28606,7 +28606,7 @@ MonoBehaviour:
       - curtainsmall
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Lovely colours!
@@ -28910,7 +28910,7 @@ MonoBehaviour:
       - floor
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - This rug really brightens up the room
@@ -29412,7 +29412,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Nice! I love reading in a bed.
@@ -29961,7 +29961,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Nice
@@ -31850,7 +31850,7 @@ MonoBehaviour:
       - bedheadboard
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Nice and vibrant!
@@ -32670,7 +32670,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Wow! A stunning chandelier!
@@ -32838,7 +32838,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - So cute!
@@ -33267,7 +33267,7 @@ MonoBehaviour:
       - bookcase
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - This seat turned out beautiful
@@ -33834,7 +33834,7 @@ MonoBehaviour:
       backwardDependencies: []
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Oh, I love the chair! So chic!
@@ -34204,7 +34204,7 @@ MonoBehaviour:
       - wallright
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - The room feels so nice and bright!
@@ -34526,7 +34526,7 @@ MonoBehaviour:
       - painting
       price:
         currency: 2
-        cost: 1
+        cost: 2
       autoSelect: 0
       toSayAfterOpen:
       - Lovely!

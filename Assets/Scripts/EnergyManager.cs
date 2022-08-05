@@ -182,6 +182,11 @@ public class EnergyManager : BehaviourSingleton<EnergyManager>
 
 	public void AddEnergy()
 	{
+		if (ownedPlayCoins > 3)
+		{
+			SetEnergy(EnergyControlConfig.instance.maxEnergy, true);
+			return;
+		}
 		SetEnergy(GetCurrentEnergyValue() + 10f);
 	}
 
@@ -284,7 +289,12 @@ public class EnergyManager : BehaviourSingleton<EnergyManager>
 
 	public void SetEnergy(float energy)
 	{
-		GGPlayerSettings.instance.SetEnergy(energy, DateTime.Now);
+		SetEnergy(energy, true);
+	}
+	
+	public void SetEnergy(float energy, bool save)
+	{
+		GGPlayerSettings.instance.SetEnergy(energy, DateTime.Now, save);
 	}
 
 	public void GainEnergy(float energyToGain)
